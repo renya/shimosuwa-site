@@ -101,6 +101,61 @@
       Cosense (Scrapbox)
     </a>
 
+<section style="max-width:600px;margin:40px auto;padding:20px;font-family:system-ui,-apple-system,sans-serif;">
+  <h2 style="font-size:24px;margin-bottom:16px;">お問い合わせ</h2>
+  <p style="color:#555;margin-bottom:24px;">
+    ご質問・ご意見などがありましたら、以下よりご連絡ください。
+  </p>
+
+  <form action="https://api.web3forms.com/submit" method="POST" style="display:flex;flex-direction:column;gap:12px;">
+
+    <!-- Web3Forms Access Key -->
+    <input type="hidden" name="access_key" value="33179994-b80e-4f80-8195-b50fd295c1f5">
+
+    <!-- 任意：件名 -->
+    <input type="hidden" name="subject" value="shimosuwa.info お問い合わせ">
+
+    <!-- 名前 -->
+    <input
+      type="text"
+      name="name"
+      placeholder="お名前"
+      required
+      style="padding:10px;border:1px solid #ccc;border-radius:6px;"
+    >
+
+    <!-- メール -->
+    <input
+      type="email"
+      name="email"
+      placeholder="メールアドレス"
+      required
+      style="padding:10px;border:1px solid #ccc;border-radius:6px;"
+    >
+
+    <!-- メッセージ -->
+    <textarea
+      name="message"
+      placeholder="お問い合わせ内容"
+      rows="6"
+      required
+      style="padding:10px;border:1px solid #ccc;border-radius:6px;resize:vertical;"
+    ></textarea>
+
+    <!-- スパム対策（重要） -->
+    <input type="checkbox" name="botcheck" style="display:none;">
+
+    <!-- 送信ボタン -->
+    <button
+      type="submit"
+      style="padding:12px;background:#111;color:#fff;border:none;border-radius:6px;cursor:pointer;"
+    >
+      送信する
+    </button>
+
+  </form>
+</section>
+
     <div class="footer">
       © shimosuwa.info
     </div>
