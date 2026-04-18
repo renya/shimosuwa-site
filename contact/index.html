@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>お問い合わせ｜shimosuwa.info</title>
+  <meta name="description" content="shimosuwa.infoへのお問い合わせフォームです。">
+
+  <style>
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      background: #0b0b0f;
+      color: #ffffff;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 60px 20px;
+    }
+
+    h1 {
+      font-size: 28px;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #bbb;
+      margin-bottom: 30px;
+      line-height: 1.6;
+    }
+
+    a.back {
+      display: inline-block;
+      margin-bottom: 30px;
+      color: #7aa2ff;
+      text-decoration: none;
+      font-size: 14px;
+    }
+
+    a.back:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="container">
+
+    <a class="back" href="/">← トップへ戻る</a>
+
+    <h1>お問い合わせ</h1>
+
+    <p>
+      ご質問・ご意見などがありましたら、以下のフォームよりご連絡ください。
+    </p>
+
+    <form action="https://api.web3forms.com/submit" method="POST" style="display:flex;flex-direction:column;gap:12px;">
+
+      <!-- NOTE: 送信後は必ずthanksページへ遷移 -->
+      <input type="hidden" name="redirect" value="https://shimosuwa.info/contact/thanks.html">
+
+      <!-- Web3Forms Access Key -->
+      <input type="hidden" name="access_key" value="33179994-b80e-4f80-8195-b50fd295c1f5">
+
+      <!-- 件名 -->
+      <input type="hidden" name="subject" value="shimosuwa.info お問い合わせ">
+
+      <input type="text" name="name" placeholder="お名前" required
+        style="padding:10px;border:1px solid #ccc;border-radius:6px;">
+
+      <input type="email" name="email" placeholder="メールアドレス" required
+        style="padding:10px;border:1px solid #ccc;border-radius:6px;">
+
+      <textarea name="message" placeholder="お問い合わせ内容" rows="6" required
+        style="padding:10px;border:1px solid #ccc;border-radius:6px;resize:vertical;"></textarea>
+
+      <input type="checkbox" name="botcheck" style="display:none;">
+
+      <button type="submit"
+        style="padding:12px;background:#111;color:#fff;border:none;border-radius:6px;cursor:pointer;">
+        送信する
+      </button>
+
+    </form>
+
+  </div>
+
+</body>
+</html>
