@@ -1,3 +1,5 @@
+<!DOCTYPE html>
+<html lang="ja">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,7 +27,6 @@
   <meta name="twitter:description" content="下諏訪町とその周辺の情報をまとめた地域サイトです。">
   <meta name="twitter:image" content="https://shimosuwa.info/assets/ogp.png">
 
-  <!-- theme color -->
   <meta name="theme-color" content="#0b0b0f">
 
   <style>
@@ -84,17 +85,31 @@
       width: 100%;
       margin: 40px auto;
       padding: 20px;
-      font-family: system-ui, -apple-system, sans-serif;
+    }
+
+    .contact-link {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 12px 18px;
+      border-radius: 8px;
+      border: 1px solid #7aa2ff;
+      color: #7aa2ff;
+      text-decoration: none;
+      transition: 0.2s;
+    }
+
+    .contact-link:hover {
+      background: #7aa2ff;
+      color: #0b0b0f;
     }
   </style>
 </head>
 
 <body>
+
   <div class="container">
 
     <div class="logo">shimosuwa.info</div>
-
-    <!-- <img src="assets/logo-white.png" alt="logo"> -->
 
     <p class="description">
       長野県のほぼ中央にある諏訪湖北岸の諏訪大社下社が鎮座する下諏訪町とその周辺の情報をまとめた地域サイトです。
@@ -109,41 +124,17 @@
       Cosense (Scrapbox)
     </a>
 
+    <!-- お問い合わせ導線のみ -->
     <section>
-      <h2 style="font-size:24px;margin-bottom:16px;">お問い合わせ</h2>
+      <h2 style="font-size:22px;margin-bottom:10px;">お問い合わせ</h2>
 
-      <p style="color:#bbb;margin-bottom:24px;">
-        ご質問・ご意見などがありましたら、以下よりご連絡ください。
+      <p style="opacity:0.7;font-size:14px;">
+        ご質問・ご意見はこちらからご連絡ください。
       </p>
 
-      <form action="https://api.web3forms.com/submit" method="POST" style="display:flex;flex-direction:column;gap:12px;">
-
-        <!-- NOTE: 送信後は必ずthanksページへ遷移 -->
-        <input type="hidden" name="redirect" value="https://shimosuwa.info/contact/thanks.html">
-
-        <!-- Web3Forms Access Key -->
-        <input type="hidden" name="access_key" value="33179994-b80e-4f80-8195-b50fd295c1f5">
-
-        <!-- 件名 -->
-        <input type="hidden" name="subject" value="shimosuwa.info お問い合わせ">
-
-        <input type="text" name="name" placeholder="お名前" required
-          style="padding:10px;border:1px solid #ccc;border-radius:6px;">
-
-        <input type="email" name="email" placeholder="メールアドレス" required
-          style="padding:10px;border:1px solid #ccc;border-radius:6px;">
-
-        <textarea name="message" placeholder="お問い合わせ内容" rows="6" required
-          style="padding:10px;border:1px solid #ccc;border-radius:6px;resize:vertical;"></textarea>
-
-        <input type="checkbox" name="botcheck" style="display:none;">
-
-        <button type="submit"
-          style="padding:12px;background:#111;color:#fff;border:none;border-radius:6px;cursor:pointer;">
-          送信する
-        </button>
-
-      </form>
+      <a class="contact-link" href="/contact/">
+        お問い合わせフォームへ
+      </a>
     </section>
 
     <div class="footer">
@@ -151,5 +142,6 @@
     </div>
 
   </div>
+
 </body>
 </html>
