@@ -25,7 +25,7 @@
   <meta name="twitter:description" content="下諏訪町とその周辺の情報をまとめた地域サイトです。">
   <meta name="twitter:image" content="https://shimosuwa.info/assets/ogp.png">
 
-  <!-- theme color（スマホUI色） -->
+  <!-- theme color -->
   <meta name="theme-color" content="#0b0b0f">
 
   <style>
@@ -34,10 +34,6 @@
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
       background: #0b0b0f;
       color: #ffffff;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      height: 100vh;
       text-align: center;
     }
 
@@ -46,6 +42,7 @@
       flex-direction: column;
       gap: 24px;
       align-items: center;
+      padding: 60px 20px;
     }
 
     .logo {
@@ -70,97 +67,89 @@
     }
 
     .description {
-  font-size: 14px;
-  opacity: 0.7;
-  max-width: 420px;
-  line-height: 1.6;
-}
-    
+      font-size: 14px;
+      opacity: 0.7;
+      max-width: 420px;
+      line-height: 1.6;
+    }
+
     .footer {
       font-size: 12px;
       opacity: 0.5;
       margin-top: 20px;
+    }
+
+    section {
+      max-width: 600px;
+      width: 100%;
+      margin: 40px auto;
+      padding: 20px;
+      font-family: system-ui, -apple-system, sans-serif;
     }
   </style>
 </head>
 
 <body>
   <div class="container">
+
     <div class="logo">shimosuwa.info</div>
+
     <!-- <img src="assets/logo-white.png" alt="logo"> -->
 
-  <p class="description">
-    長野県のほぼ中央にある諏訪湖北岸の諏訪大社下社が鎮座する下諏訪町とその周辺の情報をまとめた地域サイトです。
-  </p>
-    
+    <p class="description">
+      長野県のほぼ中央にある諏訪湖北岸の諏訪大社下社が鎮座する下諏訪町とその周辺の情報をまとめた地域サイトです。
+    </p>
+
     <a class="link" href="https://x.com/shimosuwa_info" target="_blank">
       X (Twitter)
     </a>
+
     <a class="link" href="https://scrapbox.io/shimosuwa" target="_blank">
       <b>memo.shimosuwa.info</b><br>
       Cosense (Scrapbox)
     </a>
 
-<section style="max-width:600px;margin:40px auto;padding:20px;font-family:system-ui,-apple-system,sans-serif;">
-  <h2 style="font-size:24px;margin-bottom:16px;">お問い合わせ</h2>
-  <p style="color:#555;margin-bottom:24px;">
-    ご質問・ご意見などがありましたら、以下よりご連絡ください。
-  </p>
+    <section>
+      <h2 style="font-size:24px;margin-bottom:16px;">お問い合わせ</h2>
 
-  <form action="https://api.web3forms.com/submit" method="POST" style="display:flex;flex-direction:column;gap:12px;">
-    <!-- NOTE: 送信後は必ずthanksページへ遷移 -->
-　　<input type="hidden" name="redirect" value="https://shimosuwa.info/contact/thanks.html">
-    
-    <!-- Web3Forms Access Key -->
-    <input type="hidden" name="access_key" value="33179994-b80e-4f80-8195-b50fd295c1f5">
+      <p style="color:#bbb;margin-bottom:24px;">
+        ご質問・ご意見などがありましたら、以下よりご連絡ください。
+      </p>
 
-    <!-- 任意：件名 -->
-    <input type="hidden" name="subject" value="shimosuwa.info お問い合わせ">
+      <form action="https://api.web3forms.com/submit" method="POST" style="display:flex;flex-direction:column;gap:12px;">
 
-    <!-- 名前 -->
-    <input
-      type="text"
-      name="name"
-      placeholder="お名前"
-      required
-      style="padding:10px;border:1px solid #ccc;border-radius:6px;"
-    >
+        <!-- NOTE: 送信後は必ずthanksページへ遷移 -->
+        <input type="hidden" name="redirect" value="https://shimosuwa.info/contact/thanks.html">
 
-    <!-- メール -->
-    <input
-      type="email"
-      name="email"
-      placeholder="メールアドレス"
-      required
-      style="padding:10px;border:1px solid #ccc;border-radius:6px;"
-    >
+        <!-- Web3Forms Access Key -->
+        <input type="hidden" name="access_key" value="33179994-b80e-4f80-8195-b50fd295c1f5">
 
-    <!-- メッセージ -->
-    <textarea
-      name="message"
-      placeholder="お問い合わせ内容"
-      rows="6"
-      required
-      style="padding:10px;border:1px solid #ccc;border-radius:6px;resize:vertical;"
-    ></textarea>
+        <!-- 件名 -->
+        <input type="hidden" name="subject" value="shimosuwa.info お問い合わせ">
 
-    <!-- スパム対策（重要） -->
-    <input type="checkbox" name="botcheck" style="display:none;">
+        <input type="text" name="name" placeholder="お名前" required
+          style="padding:10px;border:1px solid #ccc;border-radius:6px;">
 
-    <!-- 送信ボタン -->
-    <button
-      type="submit"
-      style="padding:12px;background:#111;color:#fff;border:none;border-radius:6px;cursor:pointer;"
-    >
-      送信する
-    </button>
+        <input type="email" name="email" placeholder="メールアドレス" required
+          style="padding:10px;border:1px solid #ccc;border-radius:6px;">
 
-  </form>
-</section>
+        <textarea name="message" placeholder="お問い合わせ内容" rows="6" required
+          style="padding:10px;border:1px solid #ccc;border-radius:6px;resize:vertical;"></textarea>
+
+        <input type="checkbox" name="botcheck" style="display:none;">
+
+        <button type="submit"
+          style="padding:12px;background:#111;color:#fff;border:none;border-radius:6px;cursor:pointer;">
+          送信する
+        </button>
+
+      </form>
+    </section>
 
     <div class="footer">
       © shimosuwa.info
     </div>
+
   </div>
 </body>
 </html>
