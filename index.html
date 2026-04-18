@@ -108,7 +108,9 @@
   </p>
 
   <form action="https://api.web3forms.com/submit" method="POST" style="display:flex;flex-direction:column;gap:12px;">
-
+    <!-- NOTE: 送信後は必ずthanksページへ遷移 -->
+　　<input type="hidden" name="redirect" value="https://shimosuwa.info/contact/thanks.html">
+    
     <!-- Web3Forms Access Key -->
     <input type="hidden" name="access_key" value="33179994-b80e-4f80-8195-b50fd295c1f5">
 
