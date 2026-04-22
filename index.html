@@ -19,13 +19,13 @@
   <meta property="og:description" content="下諏訪町とその周辺の情報をまとめた地域サイトです。">
   <meta property="og:type" content="website">
   <meta property="og:url" content="https://shimosuwa.info/">
-  <meta property="og:image" content="https://shimosuwa.info/assets/ogp.png">
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako.jpg">
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="下諏訪｜shimosuwa.info">
   <meta name="twitter:description" content="下諏訪町とその周辺の情報をまとめた地域サイトです。">
-  <meta name="twitter:image" content="https://shimosuwa.info/assets/ogp.png">
+  <meta name="twitter:image" content="https://shimosuwa.info/assets/suwako.jpg">
 
   <meta name="theme-color" content="#0b0b0f">
 
@@ -38,18 +38,40 @@
       text-align: center;
     }
 
+    /* トップ画像 */
+    .hero {
+      width: 100%;
+      height: 260px;
+      background-image: url("/assets/suwako.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+
+    .hero-caption {
+      font-size: 12px;
+      opacity: 0.6;
+      margin-top: 6px;
+    }
+
     .container {
       display: flex;
       flex-direction: column;
       gap: 24px;
       align-items: center;
-      padding: 60px 20px;
+      padding: 40px 20px 60px;
     }
 
     .logo {
-      font-size: 48px;
+      font-size: 42px;
       font-weight: 700;
       letter-spacing: 2px;
+    }
+
+    .description {
+      font-size: 14px;
+      opacity: 0.7;
+      max-width: 420px;
+      line-height: 1.6;
     }
 
     .link {
@@ -67,24 +89,26 @@
       color: #0b0b0f;
     }
 
-    .description {
-      font-size: 14px;
+    .link-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+
+    .icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      display: block;
+    }
+
+    .link small {
+      display: block;
+      font-size: 13px;
       opacity: 0.7;
-      max-width: 420px;
-      line-height: 1.6;
-    }
-
-    .footer {
-      font-size: 12px;
-      opacity: 0.5;
-      margin-top: 20px;
-    }
-
-    section {
-      max-width: 600px;
-      width: 100%;
-      margin: 40px auto;
-      padding: 20px;
+      margin-top: 2px;
+      font-weight: 600;
     }
 
     .contact-link {
@@ -103,42 +127,26 @@
       color: #0b0b0f;
     }
 
-    .icon {
-      width: 48px;
-      height: 48px;
-      border-radius: 50%;
-      display: block; /* 安定化 */
-    }
-
-    .link-center {
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 8px;
-    }
-
-    .link small {
-      display: block;
-      font-size: 13px;
-      opacity: 0.7;
-      margin-top: 2px;
-      font-weight: 600;
-    }
-
-    .link span {
-      font-weight: 500;
+    .footer {
+      font-size: 12px;
+      opacity: 0.5;
+      margin-top: 20px;
     }
   </style>
 </head>
 
 <body>
 
+  <!-- トップ画像 -->
+  <div class="hero"></div>
+  <div class="hero-caption">諏訪湖（下諏訪側）</div>
+
   <div class="container">
 
     <div class="logo">shimosuwa.info</div>
 
     <p class="description">
-      長野県のほぼ中央にある諏訪湖北岸の諏訪大社下社が鎮座する下諏訪町とその周辺の情報をまとめた地域サイトです。
+      長野県のほぼ中央にある諏訪湖北岸の下諏訪町とその周辺の情報をまとめた地域サイトです。
     </p>
 
     <!-- X -->
