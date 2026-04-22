@@ -88,14 +88,14 @@
     }
 
     .contact-link {
-  display: inline-block;
-  font-size: 16px;
-  padding: 10px 18px;
-  border-radius: 8px;
-  border: 1px solid #7aa2ff;
-  color: #7aa2ff;
-  text-decoration: none;
-  transition: 0.2s;
+      display: inline-block;
+      font-size: 16px;
+      padding: 10px 18px;
+      border-radius: 8px;
+      border: 1px solid #7aa2ff;
+      color: #7aa2ff;
+      text-decoration: none;
+      transition: 0.2s;
     }
 
     .contact-link:hover {
@@ -103,31 +103,31 @@
       color: #0b0b0f;
     }
 
-.icon {
-  width: 48px;
-  height: 48px;
-  border-radius: 50%;
-}
+    .icon {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      display: block; /* 安定化 */
+    }
 
-.link-center {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
-}
+    .link-center {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
 
-.link small {
-  display: block;
-  font-size: 13px;
-  opacity: 0.7;
-  margin-top: 2px;
-  font-weight: 600;
-}
+    .link small {
+      display: block;
+      font-size: 13px;
+      opacity: 0.7;
+      margin-top: 2px;
+      font-weight: 600;
+    }
 
-.link span {
-  font-weight: 500;
-}
-
+    .link span {
+      font-weight: 500;
+    }
   </style>
 </head>
 
@@ -141,20 +141,28 @@
       長野県のほぼ中央にある諏訪湖北岸の諏訪大社下社が鎮座する下諏訪町とその周辺の情報をまとめた地域サイトです。
     </p>
 
-<a class="link link-center" href="https://x.com/shimosuwa_info" target="_blank" rel="noopener">
-  <img src="https://shimosuwa.info/assets/icon-edit.png" alt="shimosuwa_info" class="icon">
-  <span>X (Twitter)</span>
-</a>
+    <!-- X -->
+    <a class="link link-center" href="https://x.com/shimosuwa_info" target="_blank" rel="noopener noreferrer">
+      <img src="https://shimosuwa.info/assets/icon-edit.png" alt="shimosuwa_info" class="icon">
+      <span>X (Twitter)</span>
+    </a>
 
-    <a class="link" href="https://scrapbox.io/shimosuwa" target="_blank">
+    <!-- Instagram -->
+    <a class="link link-center" href="https://www.instagram.com/shimosuwa_info/" target="_blank" rel="noopener noreferrer">
+      <img src="https://shimosuwa.info/assets/icon-edit.png" alt="shimosuwa_info" class="icon">
+      <span>Instagram</span>
+    </a>
+
+    <!-- Cosense -->
+    <a class="link" href="https://scrapbox.io/shimosuwa" target="_blank" rel="noopener noreferrer">
       <span>memo.shimosuwa.info</span>
       <small>Cosense (Scrapbox)</small>
     </a>
 
-    <!-- お問い合わせ導線のみ -->
-      <a class="contact-link" href="/contact/">
-        お問い合わせフォーム
-      </a>
+    <!-- お問い合わせ -->
+    <a class="contact-link" href="/contact/">
+      お問い合わせフォーム
+    </a>
 
     <div class="footer">
       © shimosuwa.info
