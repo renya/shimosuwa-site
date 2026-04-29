@@ -7,6 +7,9 @@ body {
   font-size: 16px;
 }
 
+/* =========================
+   レイアウト
+========================= */
 .container {
   max-width: 720px;
   margin: 48px auto;
@@ -16,6 +19,9 @@ body {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
+/* =========================
+   タイポグラフィ
+========================= */
 h1 {
   font-size: 32px;
   font-weight: 700;
@@ -51,6 +57,15 @@ h2 {
   color: #444;
 }
 
+.note {
+  font-size: 13px;
+  color: #777;
+  margin-top: 8px;
+}
+
+/* =========================
+   リスト
+========================= */
 ul {
   margin: 0 0 16px;
   padding-left: 20px;
@@ -60,7 +75,9 @@ li {
   margin-bottom: 4px;
 }
 
-/* 通常画像（1枚表示） */
+/* =========================
+   画像
+========================= */
 img {
   width: 100%;
   max-height: 420px;
@@ -70,12 +87,14 @@ img {
   margin: 28px 0;
 }
 
-/* 画像同士の間隔 */
+/* 画像間の余白 */
 img + img {
   margin-top: 16px;
 }
 
-/* ギャラリー（横並び） */
+/* =========================
+   ギャラリー（横並び）
+========================= */
 .gallery {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -98,6 +117,45 @@ img + img {
   }
 }
 
+/* =========================
+   一覧カード
+========================= */
+.list {
+  display: grid;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.card {
+  display: block;
+  padding: 18px 20px;
+  border-radius: 14px;
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-left: 4px solid #2563eb;
+  transition: all 0.2s ease;
+}
+
+.card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.10);
+}
+
+.card-title {
+  font-size: 17px;
+  font-weight: 700;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+.card-desc {
+  font-size: 14px;
+  color: #666;
+}
+
+/* =========================
+   フッター
+========================= */
 .footer-banner {
   margin-top: 40px;
   text-align: left;
@@ -109,12 +167,9 @@ img + img {
   opacity: 0.9;
 }
 
-.note {
-  font-size: 13px;
-  color: #777;
-  margin-top: 8px;
-}
-
+/* =========================
+   リンク
+========================= */
 a {
   color: #2563eb;
   text-decoration: none;
@@ -122,37 +177,4 @@ a {
 
 a:hover {
   text-decoration: underline;
-}
-
-/* 一覧カード */
-.list {
-  display: grid;
-  gap: 16px;
-  margin-top: 16px;
-}
-
-.card {
-  display: block;
-  padding: 16px 18px;
-  border-radius: 12px;
-  background: #fafafa;
-  border: 1px solid #eee;
-  transition: transform 0.15s ease, box-shadow 0.15s ease;
-}
-
-.card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
-}
-
-.card-title {
-  font-size: 16px;
-  font-weight: 600;
-  margin-bottom: 6px;
-  color: #222;
-}
-
-.card-desc {
-  font-size: 14px;
-  color: #666;
 }
