@@ -9,17 +9,19 @@ body {
 
 .container {
   max-width: 720px;
-  margin: 40px auto;
-  padding: 40px 24px 60px;
+  margin: 48px auto;
+  padding: 48px 28px 64px;
   background: #fff;
   border-radius: 14px;
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 32px;
+  font-weight: 700;
   line-height: 1.3;
-  margin: 0 0 16px;
+  letter-spacing: 0.02em;
+  margin: 0 0 18px;
 }
 
 .description {
@@ -31,9 +33,12 @@ h1 {
 
 .tag {
   display: inline-block;
-  font-size: 14px;
+  font-size: 13px;
   color: #2563eb;
-  margin-bottom: 14px;
+  background: #eef4ff;
+  padding: 4px 10px;
+  border-radius: 999px;
+  margin-bottom: 16px;
 }
 
 .meta {
@@ -57,19 +62,45 @@ img {
   object-position: center;
   border-radius: 12px;
   margin: 28px 0;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-  background: #fafafa;
+}
+
+/* 画像同士の間隔 */
+img + img {
+  margin-top: 16px;
+}
+
+/* ギャラリー（横並び） */
+.gallery {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 28px 0;
+}
+
+.gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 10px;
+  margin: 0;
+}
+
+/* スマホ対応 */
+@media (max-width: 640px) {
+  .gallery {
+    grid-template-columns: 1fr;
+  }
 }
 
 .footer-banner {
-  margin-top: 32px;
+  margin-top: 40px;
+  text-align: left;
 }
 
 .footer-banner img {
   width: 220px;
   margin: 0;
   opacity: 0.9;
-  box-shadow: none;
 }
 
 a {
