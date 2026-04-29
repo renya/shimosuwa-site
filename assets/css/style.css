@@ -123,3 +123,36 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+/* 一覧カード */
+.list {
+  display: grid;
+  gap: 16px;
+  margin-top: 16px;
+}
+
+.card {
+  display: block;
+  padding: 16px 18px;
+  border-radius: 12px;
+  background: #fafafa;
+  border: 1px solid #eee;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+}
+
+.card-title {
+  font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 6px;
+  color: #222;
+}
+
+.card-desc {
+  font-size: 14px;
+  color: #666;
+}
