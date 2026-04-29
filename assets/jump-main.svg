@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="60" viewBox="0 0 240 60">
+  <rect x="0" y="0" width="240" height="60" rx="10" fill="#f8fafc" stroke="#e5e7eb"/>
+
+  <!-- アイコン -->
+  <circle cx="30" cy="30" r="14" fill="#2563eb"/>
+  <text x="30" y="35" text-anchor="middle" font-size="14" fill="#ffffff" font-family="sans-serif">S</text>
+
+  <!-- テキスト -->
+  <text x="55" y="28" font-size="12" fill="#2563eb" font-family="sans-serif">
+    shimosuwa.info
+  </text>
+
+  <text x="55" y="44" font-size="11" fill="#555" font-family="sans-serif">
+    公開ページ →
+  </text>
+</svg>
