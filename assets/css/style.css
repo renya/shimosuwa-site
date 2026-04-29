@@ -24,6 +24,11 @@ h1 {
   margin: 0 0 18px;
 }
 
+h2 {
+  font-size: 20px;
+  margin: 32px 0 12px;
+}
+
 .description {
   font-size: 16px;
   line-height: 1.7;
@@ -42,19 +47,20 @@ h1 {
 }
 
 .meta {
-  margin-bottom: 20px;
+  margin-bottom: 16px;
   color: #444;
 }
 
 ul {
-  margin: 0 0 20px;
-  padding-left: 22px;
+  margin: 0 0 16px;
+  padding-left: 20px;
 }
 
 li {
-  margin-bottom: 8px;
+  margin-bottom: 4px;
 }
 
+/* 通常画像（1枚表示） */
 img {
   width: 100%;
   max-height: 420px;
@@ -101,6 +107,12 @@ img + img {
   width: 220px;
   margin: 0;
   opacity: 0.9;
+}
+
+.note {
+  font-size: 13px;
+  color: #777;
+  margin-top: 8px;
 }
 
 a {
