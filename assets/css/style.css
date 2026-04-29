@@ -87,13 +87,12 @@ img {
   margin: 28px 0;
 }
 
-/* 画像間の余白 */
 img + img {
   margin-top: 16px;
 }
 
 /* =========================
-   ギャラリー（横並び）
+   ギャラリー
 ========================= */
 .gallery {
   display: grid;
@@ -108,13 +107,6 @@ img + img {
   object-fit: cover;
   border-radius: 10px;
   margin: 0;
-}
-
-/* スマホ対応 */
-@media (max-width: 640px) {
-  .gallery {
-    grid-template-columns: 1fr;
-  }
 }
 
 /* =========================
@@ -138,7 +130,7 @@ img + img {
 
 .card:hover {
   transform: translateY(-3px);
-  box-shadow: 0 10px 24px rgba(0,0,0,0.10);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.10);
 }
 
 .card-title {
@@ -154,17 +146,48 @@ img + img {
 }
 
 /* =========================
-   フッター
+   フッター導線
 ========================= */
-.footer-banner {
+.footer-nav {
   margin-top: 40px;
-  text-align: left;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-link {
+  display: inline-flex;
+  align-items: center;
+  height: 34px;
+  font-size: 14px;
+  color: #2563eb;
+  text-decoration: none;
+  padding: 0 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fafafa;
+  transition: all 0.2s ease;
+}
+
+.footer-link:hover {
+  background: #eef4ff;
+  border-color: #2563eb;
+  text-decoration: none;
+}
+
+.footer-banner {
+  display: inline-flex;
+  align-items: center;
+  margin: 0;
 }
 
 .footer-banner img {
+  display: block;
   width: 220px;
+  max-height: none;
   margin: 0;
   opacity: 0.9;
+  border-radius: 6px;
 }
 
 /* =========================
@@ -179,25 +202,21 @@ a:hover {
   text-decoration: underline;
 }
 
-.footer-nav {
-  margin-top: 40px;
-  display: flex;
-  align-items: center;
-  gap: 16px;
-}
+/* =========================
+   スマホ対応
+========================= */
+@media (max-width: 640px) {
+  .container {
+    margin: 24px 12px;
+    padding: 32px 20px 48px;
+  }
 
-.footer-link {
-  font-size: 14px;
-  color: #2563eb;
-  text-decoration: none;
-  padding: 8px 12px;
-  border: 1px solid #e5e7eb;
-  border-radius: 8px;
-  background: #fafafa;
-  transition: all 0.2s ease;
-}
+  .gallery {
+    grid-template-columns: 1fr;
+  }
 
-.footer-link:hover {
-  background: #eef4ff;
-  border-color: #2563eb;
+  .footer-nav {
+    align-items: flex-start;
+    flex-direction: column;
+  }
 }
