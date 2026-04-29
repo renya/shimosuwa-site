@@ -57,6 +57,16 @@ h2 {
   color: #444;
 }
 
+.meta div {
+  margin-bottom: 6px;
+}
+
+.meta span {
+  display: inline-block;
+  width: 70px;
+  color: #666;
+}
+
 .note {
   font-size: 13px;
   color: #777;
