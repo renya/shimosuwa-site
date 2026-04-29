@@ -53,17 +53,18 @@ h2 {
 }
 
 .meta {
-  margin-bottom: 16px;
+  margin: 18px 0 28px;
   color: #444;
+  line-height: 1.35;
 }
 
 .meta div {
-  margin-bottom: 6px;
+  margin-bottom: 3px;
 }
 
 .meta span {
   display: inline-block;
-  width: 70px;
+  width: 84px;
   color: #666;
 }
 
