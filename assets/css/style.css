@@ -36,10 +36,10 @@ h2 {
 }
 
 .description {
-  font-size: 16px;
-  line-height: 1.7;
+  font-size: 15px;
+  line-height: 1.55;
   color: #555;
-  margin: 0 0 16px;
+  margin: 16px 0 12px;
 }
 
 .tag {
@@ -95,7 +95,7 @@ img {
   object-fit: contain;
   object-position: center;
   border-radius: 12px;
-  margin: 28px 0;
+  margin: 20px 0;
 }
 
 img + img {
