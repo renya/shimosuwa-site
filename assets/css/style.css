@@ -178,3 +178,26 @@ a {
 a:hover {
   text-decoration: underline;
 }
+
+.footer-nav {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer-link {
+  font-size: 14px;
+  color: #2563eb;
+  text-decoration: none;
+  padding: 8px 12px;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #fafafa;
+  transition: all 0.2s ease;
+}
+
+.footer-link:hover {
+  background: #eef4ff;
+  border-color: #2563eb;
+}
