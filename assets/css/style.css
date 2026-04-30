@@ -81,6 +81,11 @@ h3 {
   margin-top: 8px;
 }
 
+.card-hub {
+  border-left: 4px solid #2563eb;
+  background: #f8fafc;
+}
+
 /* =========================
    リスト
 ========================= */
