@@ -81,14 +81,6 @@ h3 {
   margin-top: 8px;
 }
 
-.card-hub {
-  border-left: 4px solid #22c55e;
-  background: #f8fafc;
-}
-.card-hub:hover {
-  background: #ecfdf5;
-}
-
 /* =========================
    リスト
 ========================= */
@@ -180,6 +172,14 @@ img + img {
 .card-desc {
   font-size: 14px;
   color: #666;
+}
+
+.card-hub {
+  border-left: 4px solid #22c55e;
+  background: #f8fafc;
+}
+.card-hub:hover {
+  background: #ecfdf5;
 }
 
 /* =========================
