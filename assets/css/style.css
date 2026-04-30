@@ -138,6 +138,16 @@ img + img {
   margin: 0;
 }
 
+figure {
+  margin: 24px 0;
+}
+
+figcaption {
+  font-size: 13px;
+  color: #666;
+  margin-top: 6px;
+}
+
 /* =========================
    一覧カード
 ========================= */
