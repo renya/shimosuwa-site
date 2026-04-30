@@ -82,8 +82,11 @@ h3 {
 }
 
 .card-hub {
-  border-left: 4px solid #2563eb;
+  border-left: 4px solid #22c55e;
   background: #f8fafc;
+}
+.card-hub:hover {
+  background: #ecfdf5;
 }
 
 /* =========================
