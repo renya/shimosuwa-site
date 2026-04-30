@@ -219,6 +219,11 @@ figcaption small {
   background: #ecfdf5;
 }
 
+.card-external {
+  border-left: 4px solid #a78bfa; /* 紫 */
+  background: #faf5ff;
+}
+
 /* =========================
    フッター導線
 ========================= */
