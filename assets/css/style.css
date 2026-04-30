@@ -234,6 +234,10 @@ figcaption small {
   outline-offset: 2px;
 }
 
+.card-external:focus {
+  outline: 2px solid #9ca3af;
+}
+
 /* =========================
    フッター導線
 ========================= */
