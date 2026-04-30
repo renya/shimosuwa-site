@@ -147,27 +147,24 @@ figure {
 figure img {
   display: block;
   width: 100%;
+  max-height: none;
   height: auto;
-
+  object-fit: cover;
   border-radius: 12px 12px 0 0;
   margin: 0;
 }
 
 figcaption {
-  width: 100%; /* ←これ重要 */
-  box-sizing: border-box; /* ←これも重要 */
-
+  width: 100%;
+  box-sizing: border-box;
   font-size: 13px;
   color: #666;
   line-height: 1.6;
-
   background: #f8fafc;
   border: 1px solid #e5e7eb;
   border-top: none;
-
   border-radius: 0 0 12px 12px;
   padding: 10px 12px;
-
   margin: 0;
 }
 
