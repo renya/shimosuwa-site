@@ -295,29 +295,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.link {
-  display: flex;
-  align-items: center;
-  justify-content: flex-start;
-}
-
-.link-text {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.link-text small {
-  margin-top: 4px;
-  font-size: 13px;
-  line-height: 1.3;
-  opacity: 0.75;
-}
-
-.link span {
-  text-align: left;
-}
-
 /* =========================
    スマホ対応
 ========================= */
