@@ -133,9 +133,10 @@ img + img {
 
 .gallery img {
   width: 100%;
-  height: auto;
+  height: 220px;        /* 高さを揃える */
+  object-fit: contain;  /* 全体を表示 */
+  background: #f3f4f6;  /* 余白を目立たなくする */
   border-radius: 10px;
-  margin: 0;
 }
 
 figure {
