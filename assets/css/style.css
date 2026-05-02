@@ -313,3 +313,39 @@ a:hover {
     flex-direction: column;
   }
 }
+
+/* =========================
+   X引用対応
+========================= */
+.x-quote {
+  background: #f1f1f1;
+  border-left: 1px solid #bbb;
+  padding: 10px 14px;
+  margin: 14px 0;
+  color: #333;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+.x-quote p {
+  margin: 4px 0;
+}
+
+.x-head {
+  margin-bottom: 4px;
+}
+
+.x-icon {
+  color: #1d9bf0;
+  font-weight: bold;
+  margin-right: 4px;
+}
+
+.x-head a {
+  color: #1d4ed8;
+  text-decoration: underline;
+}
+
+.x-date {
+  color: #333;
+}
