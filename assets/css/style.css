@@ -365,5 +365,6 @@ a:hover {
 
 .x-label {
   font-size: 12px;
-  opacity: 0.6;
+  opacity: 0.5;
+  margin-right: 4px;
 }
