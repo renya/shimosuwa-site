@@ -362,3 +362,8 @@ a:hover {
   margin: 4px 0 0;
   border-radius: 0;
 }
+
+.x-label {
+  font-weight: bold;
+  margin-right: 4px;
+}
