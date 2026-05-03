@@ -321,10 +321,10 @@ a:hover {
   background: #f1f1f1;
   border-left: 1px solid #bbb;
   padding: 10px 14px;
-  margin: 14px 0;
+  margin: 0; /* ←ここを消す */
   color: #333;
   font-size: 15px;
-  line-height: 1.6; /* ←本文に合わせる */
+  line-height: 1.6;
 }
 
 .x-quote p {
