@@ -324,15 +324,15 @@ a:hover {
   margin: 14px 0;
   color: #333;
   font-size: 15px;
-  line-height: 1.7;
+  line-height: 1.4; /* ←詰める */
 }
 
 .x-quote p {
-  margin: 4px 0;
+  margin: 0; /* ←余白削除が最重要 */
 }
 
 .x-head {
-  margin-bottom: 4px;
+  margin-bottom: 2px; /* ←少しだけ詰める */
 }
 
 .x-icon {
