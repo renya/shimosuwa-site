@@ -320,8 +320,8 @@ a:hover {
 .x-quote {
   background: #f1f1f1;
   border-left: 1px solid #bbb;
-  padding: 10px 14px;
-  margin: 0; /* ←ここを消す */
+  padding: 2px 8px;
+  margin: 0;
   color: #333;
   font-size: 15px;
   line-height: 1.6;
