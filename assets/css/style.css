@@ -348,3 +348,17 @@ a:hover {
 .x-date {
   color: #333;
 }
+
+.x-quote .gallery {
+  margin: 6px 0 0;
+  padding: 0;
+}
+
+.x-quote .gallery img {
+  display: block;
+  max-width: 500px;
+  width: 70%;
+  height: auto;
+  margin: 4px 0 0;
+  border-radius: 0;
+}
