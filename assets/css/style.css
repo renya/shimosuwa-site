@@ -79,6 +79,17 @@ h3 {
   color: #666;
 }
 
+.map-link {
+  display: inline-block;
+  margin-top: 4px;
+  padding: 2px 0;
+}
+
+.map-link::after {
+  content: " ↗";
+  font-size: 12px;
+}
+
 .note {
   font-size: 13px;
   color: #777;
