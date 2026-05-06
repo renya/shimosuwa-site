@@ -53,6 +53,10 @@ h3 {
   margin: 16px 0 12px;
 }
 
+.tags {
+  margin-bottom: 16px;
+}
+
 .tag {
   display: inline-block;
   font-size: 13px;
@@ -60,7 +64,13 @@ h3 {
   background: #eef4ff;
   padding: 4px 10px;
   border-radius: 999px;
+  margin-right: 8px;
   margin-bottom: 16px;
+  text-decoration: none;
+}
+
+.tag:hover {
+  opacity: 0.8;
 }
 
 .meta {

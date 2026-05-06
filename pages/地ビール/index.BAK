@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>地ビール｜shimosuwa.info</title>
+  <meta name="description" content="地ビール">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>地ビール</h1>
+
+<div class="tags">
+  <a class="tag" href="/pages/food/">グルメ</a>
+</div>
+
+    <p class="description">
+    </p>
+
+<div class="list">
+
+      <a href="/pages/有頂天鋳造/" class="card">
+        <div class="card-title">有頂天鋳造</div>
+          <div class="card-desc">(周辺地域)</div>
+      </a>
+
+    </div>
+
+    <div class="footer-nav">
+
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+
+      <a href="/pages/food/" class="footer-link">
+        グルメへ→
+      </a>
+
+      <a href="/contact/" class="footer-banner">
+        <img src="https://i.gyazo.com/51c054681e8ff77398fc8f0916e18e54.png" alt="お問い合わせ">
+      </a>
+
+    </div>
+
+  </main>
+
+</body>
+</html>

@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>下諏訪の情報｜shimosuwa.info</title>
+  <meta name="description" content="下諏訪の情報ページです。">
+
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>下諏訪の情報</h1>
+
+    <p class="description">
+      下諏訪の情報を掲載しています。
+    </p>
+
+    <h2 id="スポット">スポット</h2>
+
+    <div class="list">
+
+      <a href="/pages/酒蔵/" class="card card-hub">
+        <div class="card-title">諏訪の酒蔵</div>
+          <div class="card-desc">諏訪6市町村にある9つの酒蔵のまとめ</div>
+      </a>
+
+      <a href="/pages/春宮/" class="card">
+        <div class="card-title">春宮</div>
+          <div class="card-desc">下社最初の鎮座地</div>
+      </a>
+
+      <a href="/pages/秋宮/" class="card">
+        <div class="card-title">秋宮</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/諏訪湖/" class="card">
+        <div class="card-title">諏訪湖</div>
+          <div class="card-desc">周囲約16km、信州最大の湖</div>
+      </a>
+
+      <a href="/pages/八島湿原/" class="card">
+        <div class="card-title">八島湿原</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/三峰山/" class="card">
+        <div class="card-title">三峰山</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/みずべ公園/" class="card">
+        <div class="card-title">みずべ公園</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/一ツ浜公園/" class="card">
+        <div class="card-title">一ツ浜公園</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/赤砂公園/" class="card">
+        <div class="card-title">赤砂公園</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/泉園/" class="card">
+        <div class="card-title">泉園</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/下諏訪町営球場/" class="card">
+        <div class="card-title">下諏訪町営球場</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/秋宮リンク/" class="card">
+        <div class="card-title">秋宮リンク</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/万治の石仏/" class="card">
+        <div class="card-title">万治の石仏</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/下馬橋/" class="card">
+        <div class="card-title">下馬橋</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/春宮大門/" class="card">
+        <div class="card-title">春宮大門</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/御作田社/" class="card">
+        <div class="card-title">御作田社</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/龍の口/" class="card">
+        <div class="card-title">龍の口</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/梶原塚/" class="card">
+        <div class="card-title">梶原塚</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/石投場/" class="card">
+        <div class="card-title">石投場</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/しもすわ今昔館おいでや/" class="card">
+        <div class="card-title">しもすわ今昔館おいでや</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/ニデックオルゴール記念館_すわのね/" class="card">
+        <div class="card-title">ニデックオルゴール記念館 すわのね</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/諏訪湖博物館赤彦記念館/" class="card">
+        <div class="card-title">諏訪湖博物館・赤彦記念館</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/オルゴール通り/" class="card">
+        <div class="card-title">オルゴール通り</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/高島城/" class="card">
+        <div class="card-title">高島城</div>
+          <div class="card-desc">(周辺地域)</div>
+      </a>
+
+      <a href="/pages/杖突峠/" class="card">
+        <div class="card-title">杖突峠</div>
+          <div class="card-desc">(周辺地域)</div>
+      </a>
+
+      <a href="/pages/八剱神社/" class="card">
+        <div class="card-title">八剱神社</div>
+          <div class="card-desc">(周辺地域)</div>
+      </a>
+
+      <a href="/pages/先宮神社/" class="card">
+        <div class="card-title">先宮神社</div>
+          <div class="card-desc">(周辺地域)</div>
+      </a>
+
+      <a href="/pages/旧御射山社/" class="card">
+        <div class="card-title">旧御射山社</div>
+          <div class="card-desc">(周辺地域)</div>
+      </a>
+
+    </div>
+
+    <h2 id="文化">文化</h2>
+
+    <div class="list">
+
+      <a href="/pages/諏訪大社/" class="card">
+        <div class="card-title">諏訪大社</div>
+          <div class="card-desc">信濃國一之宮</div>
+      </a>
+
+      <a href="/pages/御柱祭/" class="card">
+        <div class="card-title">御柱祭</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/令和十戊申年_諏訪大社_式年造営御柱大祭/" class="card">
+        <div class="card-title">令和十戊申年 諏訪大社 式年造営御柱大祭</div>
+          <div class="card-desc">次回2028年に行われる御柱祭に向けた動き</div>
+      </a>
+
+      <a href="/pages/お舟祭り/" class="card">
+        <div class="card-title">お舟祭り</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/春の遷座祭/" class="card">
+        <div class="card-title">春の遷座祭</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/諏訪七不思議/" class="card">
+        <div class="card-title">諏訪七不思議</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/御神渡り/" class="card">
+        <div class="card-title">御神渡り</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/下諏訪宿/" class="card">
+        <div class="card-title">下諏訪宿</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/下諏訪町/" class="card">
+        <div class="card-title">下諏訪町</div>
+          <div class="card-desc"></div>
+      </a>
+
+    </div>
+
+    <h2 id="温泉">温泉</h2>
+
+    <div class="list">
+      <a href="/pages/下諏訪温泉/" class="card card-hub">
+        <div class="card-title">下諏訪温泉</div>
+          <div class="card-desc">共同浴場・足湯など下諏訪の温泉のまとめ</div>
+      </a>
+    </div>
+
+    <h2 id="グルメ">グルメ</h2>
+
+    <div class="list">
+      <a href="/pages/food/" class="card card-hub">
+        <div class="card-title">グルメ</div>
+          <div class="card-desc">下諏訪の食事や居酒屋、カフェなど</div>
+      </a>
+    </div>
+
+    <h2 id="買い物">買い物</h2>
+
+    <div class="list">
+
+      <a href="/pages/てくてく堂/" class="card">
+        <div class="card-title">てくてく堂</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/ReBuilding_Center_JAPAN/" class="card">
+        <div class="card-title">ReBuilding Center JAPAN</div>
+          <div class="card-desc">(周辺地域)</div>
+      </a>
+
+    </div>
+
+    <h2 id="宿泊">宿泊</h2>
+
+    <div class="list">
+
+      <a href="/pages/マスヤゲストハウス/" class="card">
+        <div class="card-title">マスヤゲストハウス</div>
+          <div class="card-desc"></div>
+      </a>
+
+      <a href="/pages/ヒュッテみさやま/" class="card">
+        <div class="card-title">ヒュッテみさやま</div>
+          <div class="card-desc"></div>
+      </a>
+
+    </div>
+
+<h2 id="出来事">出来事</h2>
+
+<div class="list">
+
+  <a href="/pages/出来事2026/" class="card">
+    <div class="card-title">諏訪地方の出来事2026</div>
+    <div class="card-desc"></div>
+  </a>
+
+  <a href="/pages/万治の恵み_2026/" class="card">
+    <div class="card-title">万治の恵み 2026</div>
+    <div class="card-desc">令和8年度のプレミアム商品券の情報</div>
+  </a>
+
+  <a href="/pages/野明選手お祝いの会/" class="card">
+    <div class="card-title">野明選手お祝いの会</div>
+    <div class="card-desc">2026年5月17日</div>
+  </a>
+
+  <a href="/pages/諏訪地方のクマ情報2026/" class="card">
+    <div class="card-title">諏訪地方のクマ情報2026</div>
+    <div class="card-desc"></div>
+  </a>
+
+</div>
+
+<h2 id="リンク">リンク</h2>
+
+<div class="list">
+
+  <a href="/pages/links/" class="card card-hub">
+    <div class="card-title">リンク集</div>
+    <div class="card-desc"></div>
+  </a>
+
+</div>
+
+    <div class="footer-nav">
+  <a href="/index.html" class="footer-link">
+    トップへ→
+  </a>
+  <a href="/contact/" class="footer-banner">
+    <img src="https://i.gyazo.com/51c054681e8ff77398fc8f0916e18e54.png" alt="お問い合わせ">
+  </a>
+</div>
+
+</main>
+</body>
+</html>

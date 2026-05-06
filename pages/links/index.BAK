@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>リンク集｜shimosuwa.info</title>
+  <meta name="description" content="リンク集">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>リンク集</h1>
+
+    <p class="description">
+        下諏訪および諏訪地域に関する参考サイトをまとめています。
+    </p>
+
+    <h2>行政・公式</h2>
+
+<div class="list">
+
+  <a href="https://www.town.shimosuwa.lg.jp/www/index.html" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">下諏訪町ホームページ</div>
+    <div class="card-desc">下諏訪町役場の公式サイト</div>
+  </a>
+
+  <a href="https://shimosuwa.com/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">下諏訪温泉の公式ホームページ | 下諏訪温泉旅館組合</div>
+    <div class="card-desc">shimosuwa.comは旅館組合が運営しています</div>
+  </a>
+
+  <a href="https://shimosuwaonsen.jp/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">【公式】下諏訪の観光・旅行情報サイト｜おいでなしてしもすわ</div>
+    <div class="card-desc">下諏訪町地域開発公社 観光振興局 による</div>
+  </a>
+
+  <a href="https://kuguruto-shimosuwa.com/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">くぐると下諏訪 - 下諏訪町移住ポータルサイト</div>
+    <div class="card-desc">下諏訪町産業振興課移住定住促進室による</div>
+  </a>
+
+  <a href="https://suwataisha.or.jp/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">信濃國一之宮 諏訪大社</div>
+    <div class="card-desc"></div>
+  </a>
+  
+</div>
+
+    <h2>観光案内</h2>
+
+<div class="list">
+
+  <a href="https://www.suwa-tourism.jp/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">諏訪観光ナビ | 諏訪地方観光連盟</div>
+    <div class="card-desc">諏訪地方観光連盟による信州諏訪観光ナビのサイト。</div>
+  </a>
+
+  <a href="https://suwamap.com/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">長野県諏訪エリアの観光ポータルサイト｜すわmap</div>
+    <div class="card-desc">エコシステム(株)による令和3(2021)年オープンの諏訪エリアの観光情報サイト。</div>
+  </a>
+
+<div class="list">
+  <a href="https://suwa.mypl.net/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">諏訪の地域情報サイト - まいぷれ[諏訪]</div>
+    <div class="card-desc">運営：エルシーブイ株式会社／株式会社フューチャーリンクネットワーク</div>
+  </a>
+</div>
+
+<div class="list">
+  <a href="https://suwa-tabi.jp/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">諏訪旅</div>
+    <div class="card-desc"></div>
+  </a>
+</div>
+  
+
+</div>
+
+    <h2>その他</h2>
+
+<div class="list">
+
+  <a href="https://onbashira.jp/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">御柱祭　ONBASHIRA in SUWA | 7年に一度、遥か昔からこの諏訪の地で寅と申の年に執り行われる神事「式年造営御柱大祭」。宝殿の造り替え、そして御柱を選び、山から曳き、境内に建てる一連の神事は通称「御柱祭」と呼ばれ、諏訪大社（すわたいしゃ）の中でも最大にして最も重要な神事とされています。1200年以上も連綿と受け継がれ、諏訪6市町村の氏子たちが奉仕する御柱祭は、諏訪の誇り高き伝統文化でもあります。</div>
+    <div class="card-desc">諏訪地方観光連盟 御柱祭観光情報センターによる御柱祭情報サイト</div>
+  </a>
+
+  <div class="list">
+  <a href="https://local-small.com/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">Local Small Magazine</div>
+    <div class="card-desc">2023年に更新が止まっている</div>
+  </a>
+</div>
+
+</div>
+
+    <div class="footer-nav">
+
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+
+      <a href="/contact/" class="footer-banner">
+        <img src="https://i.gyazo.com/51c054681e8ff77398fc8f0916e18e54.png" alt="お問い合わせ">
+      </a>
+
+    </div>
+
+  </main>
+
+</body>
+</html>

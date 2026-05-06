@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>御湖鶴｜shimosuwa.info</title>
+  <meta name="description" content="御湖鶴">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>御湖鶴</h1>
+
+    <div class="tag">スポット</div>
+
+<div class="meta">
+  <div><span>営業時間:</span> 10:00〜16:30</div>
+  <div><span>定休日:</span> 水曜</div>
+  <div><span>住所:</span> 下諏訪町3205-17</div>
+  <div><span>備考:</span> 磐栄運送株式会社 諏訪御湖鶴酒造場</div>
+</div>
+
+    <p class="description">
+      下諏訪唯一の酒蔵。<br>
+    </p>
+
+    <div class="gallery">
+      <img src="https://i.gyazo.com/47cc8f85132d23bf921633c84fdb9372.jpg" alt="お店外観">
+    </div>
+
+        <h2>関連リンク</h2>
+
+<div class="list">
+
+  <a href="https://www.mikotsuru.com/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">諏訪御湖鶴酒造場</div>
+    <div class="card-desc"></div>
+  </a>
+
+  <a href="https://www.ban-ei.co.jp/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">ホーム - 磐栄ホールディングス株式会社</div>
+    <div class="card-desc"></div>
+  </a>
+
+</div>
+
+        <h2>昔の風景</h2>
+
+        <div class="gallery">
+<figure>
+  <img src="https://i.gyazo.com/70b4ad816a887b57cdb9c8a4d731c0b8.jpg" alt="先代御湖鶴">
+  <figcaption>
+    先代御湖鶴の外観写真
+    <small>2009年4月撮影</small>
+  </figcaption>
+</figure>
+    </div>
+
+    <div class="footer-nav">
+
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+
+      <a href="/pages/酒蔵/" class="footer-link">
+        諏訪の酒蔵へ→
+      </a>
+
+      <a href="/contact/" class="footer-banner">
+        <img src="https://i.gyazo.com/51c054681e8ff77398fc8f0916e18e54.png" alt="お問い合わせ">
+      </a>
+
+    </div>
+
+  </main>
+
+</body>
+</html>
