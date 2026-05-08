@@ -1,5 +1,2 @@
-    <p class="description">下諏訪の情報ページを一覧で表示しています。<br>
-${items.length}ページ</p>
-
 
 <a href="/pages//"></a>
