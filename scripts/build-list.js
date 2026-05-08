@@ -40,7 +40,7 @@ const html = `<!DOCTYPE html>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>ページ一覧｜shimosuwa.info</title>
-  <meta name="description" content="shimosuwa.info内のページ一覧です。">
+  <meta name="description" content="下諏訪の情報ページを一覧で表示しています。">
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
@@ -52,7 +52,7 @@ const html = `<!DOCTYPE html>
   <main class="container">
     <h1>ページ一覧</h1>
 
-    <p class="description">shimosuwa.info内のページを一覧で表示しています。</p>
+    <p class="description">下諏訪の情報ページを一覧で表示しています。</p>
 
     <ul>
 ${listHtml}
