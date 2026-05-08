@@ -53,6 +53,7 @@ const html = `<!DOCTYPE html>
     <h1>下諏訪の情報ページ一覧</h1>
 
     <p class="description">下諏訪の情報ページを一覧で表示しています。</p>
+<p class="meta">${items.length}ページ</p>
 
     <ul>
 ${listHtml}
@@ -65,6 +66,9 @@ ${listHtml}
   <a href="/pages/" class="footer-link">
     下諏訪の情報へ→
   </a>
+<a href="/contact/" class="footer-banner">
+<img src="https://i.gyazo.com/51c054681e8ff77398fc8f0916e18e54.png" alt="お問い合わせ">
+</a>
 </div>
 
   </main>
