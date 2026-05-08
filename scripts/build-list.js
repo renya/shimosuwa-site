@@ -52,8 +52,10 @@ const html = `<!DOCTYPE html>
   <main class="container">
     <h1>下諏訪の情報ページ一覧</h1>
 
-    <p class="description">下諏訪の情報ページを一覧で表示しています。</p>
-<p class="meta">${items.length}ページ</p>
+<p class="description">
+  下諏訪の情報ページを一覧で表示しています。<br>
+  ${items.length}ページ
+</p>
 
     <ul>
 ${listHtml}
