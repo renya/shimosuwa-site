@@ -39,8 +39,8 @@ const html = `<!DOCTYPE html>
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>下諏訪の情報ページ一覧｜shimosuwa.info</title>
-  <meta name="description" content="下諏訪の情報ページを一覧で表示しています。">
+  <title>下諏訪の情報ページリスト｜shimosuwa.info</title>
+  <meta name="description" content="下諏訪の情報ページリストを表示しています。">
 
   <link rel="icon" href="/favicon.ico" sizes="any">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
@@ -50,10 +50,10 @@ const html = `<!DOCTYPE html>
 
 <body>
   <main class="container">
-    <h1>下諏訪の情報ページ一覧</h1>
+    <h1>下諏訪の情報ページリスト</h1>
 
 <p class="description">
-  下諏訪の情報ページを一覧で表示しています。<br>
+  下諏訪の情報ページリストを表示しています。<br>
   ${items.length}ページ
 </p>
 
