@@ -58,8 +58,15 @@ const html = `<!DOCTYPE html>
 ${listHtml}
     </ul>
 
-    <p><a href="/pages/">下諏訪の情報へ戻る</a></p>
-    <p><a href="/">トップページへ戻る</a></p>
+<div class="footer-nav">
+  <a href="/pages/" class="footer-link">
+    下諏訪の情報へ→
+  </a>
+  <a href="/" class="footer-link">
+    トップページへ→
+  </a>
+</div>
+
   </main>
 </body>
 </html>
