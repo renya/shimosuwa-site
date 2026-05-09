@@ -264,11 +264,11 @@ figcaption small {
 }
 
 .card-post {
-border-left: 4px solid #a5b0c5;
+  border-left: 4px solid #222;
 }
 
 .card-post:hover {
-  background: #f5f7fc;
+  background: #f7f7f7;
 }
 
 /* =========================
