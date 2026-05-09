@@ -263,6 +263,14 @@ figcaption small {
   outline: 2px solid #9ca3af;
 }
 
+.card-post {
+  border-left: 4px solid #7c83d6;
+}
+
+.card-post:hover {
+  background: #f5f6ff;
+}
+
 /* =========================
    フッター導線
 ========================= */
