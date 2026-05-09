@@ -53,7 +53,7 @@ const html = `<!DOCTYPE html>
     <h1>下諏訪の情報ページリスト</h1>
 
 <p class="description">
-  下諏訪の情報ページリストを表示しています。<br>
+  <a href="/pages/">下諏訪の情報</a>ページリストを表示しています。<br>
   ${items.length}ページ
 </p>
 
