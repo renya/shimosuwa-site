@@ -275,6 +275,20 @@ figcaption small {
   outline: 2px solid #222;
 }
 
+.external-sub {
+  margin: 8px 0 20px;
+  padding: 0 4px;
+}
+
+.external-sub a {
+  color: #2a5db0;
+  text-decoration: none;
+}
+
+.external-sub a:hover {
+  text-decoration: underline;
+}
+
 /* =========================
    フッター導線
 ========================= */
