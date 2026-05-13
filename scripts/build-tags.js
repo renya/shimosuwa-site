@@ -1,0 +1,130 @@
+const fs = require("fs");
+const path = require("path");
+
+const root = path.join(__dirname, "..");
+const pagesDir = path.join(root, "pages");
+const listDir = path.join(root, "list");
+
+// 自動生成したいタグ
+const allowedTags = new Set([
+  "周辺地域",
+  "スポット",
+  "共同浴場",
+  "グルメ",
+  "地ビール"
+]);
+
+const tagPages = new Map();
+
+function getTitle(html, fallback) {
+  const match = html.match(/<h1>(.*?)<\/h1>/);
+  return match ? match[1].trim() : fallback;
+}
+
+function collectTagPages() {
+  const pageDirs = fs.readdirSync(pagesDir, { withFileTypes: true })
+    .filter(dirent => dirent.isDirectory());
+
+  for (const dirent of pageDirs) {
+    const name = dirent.name;
+    const indexPath = path.join(pagesDir, name, "index.html");
+
+    if (!fs.existsSync(indexPath)) continue;
+
+    const html = fs.readFileSync(indexPath, "utf8");
+    const title = getTitle(html, name);
+    const pageUrl = `/pages/${name}/`;
+
+    const tagMatches = [...html.matchAll(
+      /<a[^>]*class="tag"[^>]*href="\/pages\/([^"]+)\/"[^>]*>([^<]+)<\/a>/g
+    )];
+
+    for (const match of tagMatches) {
+      const tagName = match[2].trim();
+
+      if (!allowedTags.has(tagName)) continue;
+
+      // タグページ自身は除外
+      if (name === tagName) continue;
+
+      if (!tagPages.has(tagName)) {
+        tagPages.set(tagName, []);
+      }
+
+      tagPages.get(tagName).push({
+        title,
+        url: pageUrl
+      });
+    }
+  }
+}
+
+function buildTagPage(tagName, items) {
+  const uniqueItems = Array.from(
+    new Map(items.map(item => [item.url, item])).values()
+  ).sort((a, b) => a.title.localeCompare(b.title, "ja"));
+
+  const listHtml = uniqueItems.map(item => {
+    return `      <li><a href="${item.url}">${item.title}</a></li>`;
+  }).join("\n");
+
+  return `<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>${tagName}｜shimosuwa.info</title>
+  <meta name="description" content="shimosuwa.info内の「${tagName}」タグが付いたページリストです。">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+  <main class="container">
+    <h1>${tagName}</h1>
+
+<p class="description">
+  <a href="/pages/${tagName}/">${tagName}</a>タグが付いたページリストを表示しています。<br>
+  ${uniqueItems.length}ページ
+</p>
+
+    <ul>
+${listHtml}
+    </ul>
+
+  <a href="/pages/" class="footer-link">
+    下諏訪の情報へ→
+  </a>
+<a href="/contact/" class="footer-banner">
+<img src="https://i.gyazo.com/51c054681e8ff77398fc8f0916e18e54.png" alt="お問い合わせ">
+</a>
+</div>
+
+  </main>
+</body>
+</html>
+`;
+}
+
+function writeTagPages() {
+  for (const [tagName, items] of tagPages.entries()) {
+    const tagDir = path.join(listDir, tagName);
+    const outputFile = path.join(tagDir, "index.html");
+
+    fs.mkdirSync(tagDir, { recursive: true });
+
+    const html = buildTagPage(tagName, items);
+    fs.writeFileSync(outputFile, html, "utf8");
+
+    const uniqueCount = new Map(items.map(item => [item.url, item])).size;
+
+    console.log(`生成しました: list/${tagName}/index.html`);
+    console.log(`${tagName}: ${uniqueCount}ページ`);
+  }
+}
+
+collectTagPages();
+writeTagPages();
