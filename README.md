@@ -5,10 +5,10 @@ Deployed via Cloudflare Pages.
 
 ## structure
 
-/pages/
+/pages/  
 手動で作成・編集するページ。
 
-/list/
+/list/  
 Node.jsスクリプトで自動生成する一覧ページ。
 
 ## build
@@ -17,21 +17,25 @@ Node.jsスクリプトで自動生成する一覧ページ。
 
 ```bash
 node scripts/build-list.js
+```
 
 タグ一覧を再生成:
+
 ```bash
 node scripts/build-tags.js
+```
 
 ## build list and tags pages
 
 ```bash
-npm run build
+npm.cmd run build
 ```
 
 ## check links
 
-公開サイトのリンク確認:
+公開サイトのリンク確認:  
 https://www.deadlinkchecker.com/
-whole website を選択し、
-https://shimosuwa.info/
+
+whole website を選択し、  
+https://shimosuwa.info/  
 を確認する。

@@ -95,6 +95,7 @@ function buildTagPage(tagName, items) {
 ${listHtml}
     </ul>
 
+<div class="footer-nav">
   <a href="/pages/" class="footer-link">
     下諏訪の情報へ→
   </a>
