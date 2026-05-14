@@ -398,12 +398,10 @@
 
 <div class="list">
 
-<!-- 
-  <a href="/pages/出来事2026/" class="card card-hub">
+  <a href="/pages/出来事2026/" class="card">
     <div class="card-title">諏訪地方の出来事2026</div>
     <div class="card-desc"></div>
   </a>
- -->
 
   <a href="/pages/万治の恵み_2026/" class="card">
     <div class="card-title">万治の恵み 2026</div>
@@ -413,16 +411,6 @@
   <a href="/pages/野明選手お祝いの会/" class="card">
     <div class="card-title">野明選手お祝いの会</div>
     <div class="card-desc">2026年5月17日</div>
-  </a>
-
-  <a href="/pages/8Peaks living開業/" class="card">
-    <div class="card-title">8Peaks living開業</div>
-    <div class="card-desc">2026年4月25日</div>
-  </a>
-
-  <a href="/pages/岡谷JCT周辺工事/" class="card">
-    <div class="card-title">岡谷JCT周辺工事</div>
-    <div class="card-desc">2026年5月〜12月</div>
   </a>
 
   <a href="/pages/荒汐部屋下諏訪合宿2026/" class="card">
