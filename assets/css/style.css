@@ -422,6 +422,23 @@ a:hover {
 
 /* 御柱祭ページ用 */
 
+.link-list {
+  margin: 0.4em 0 1em;
+  padding-left: 1.2em;
+}
+
+.link-list li {
+  margin: 0.1em 0;
+  line-height: 1.5;
+}
+
+.timeline-date {
+  margin-top: 1.4em;
+  margin-bottom: 0.3em;
+  font-weight: 700;
+  font-size: 1rem;
+}
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -450,10 +467,6 @@ blockquote {
 
 blockquote p {
   margin: 0.4em 0;
-}
-
-.timeline-date {
-  margin-top: 2em;
 }
 
 .image-grid {
