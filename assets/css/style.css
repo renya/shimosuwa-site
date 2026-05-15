@@ -169,14 +169,8 @@ img + img {
 }
 
 .gallery:has(img:only-child) {
-  display: block;
-  margin: 8px 0 0;
-}
-
-.gallery:has(img:only-child) {
-  display: block;
-  width: fit-content;
-  margin: 8px 0 0;
+  display: inline-block;
+  margin: 4px 0 0;
 }
 
 figure {
