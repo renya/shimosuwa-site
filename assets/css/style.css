@@ -164,6 +164,18 @@ img + img {
   border-radius: 10px;
 }
 
+.single-image {
+  margin: 8px 0 6px;
+}
+
+.single-image img {
+  display: block;
+  width: 100%;
+  max-width: 440px;
+  height: auto;
+  border-radius: 10px;
+}
+
 figure {
   margin: 28px auto;
   max-width: 720px;
