@@ -18,8 +18,7 @@ class名・タグ構造・レイアウト方針を維持してください。
 - title・meta description・h1 はページ内容に合わせて変更すること
 - ヘッダーとフッターのHTML構造は維持すること
 
-- index.html はテンプレートとして扱う
-- sample.txt は変換ルールとして扱う
+- scrapbox2html.txt は変換ルールとして扱う
 
 - scrapbox.txt の本文順・内容はできるだけ変えないこと
 - 内容を整理・要約しないこと
@@ -28,14 +27,17 @@ class名・タグ構造・レイアウト方針を維持してください。
 - 不要な空白行を増やさないこと
 - class の入れ子を必要以上に深くしないこと
 
-- X/Twitter引用は sample.txt の x-quote 形式を使うこと
+- X/Twitter引用は scrapbox2html.txt の x-quote 形式を使うこと
 - X/Twitter引用内の連続画像は必ず gallery div の中にまとめること
 - X/Twitter引用中の画像を ul/li にしないこと
-- > 行が連続している場合は同じ x-quote として扱うこと
+- X/Twitter引用内で > 行が連続している場合は、同じ x-quote 内の本文として扱うこと
 - X/Twitter引用ブロックは途中で分割しないこと
 - gallery div の外に X/Twitter引用画像を出さないこと
+- X/Twitter引用内の本文は p タグで囲まないこと
+- X/Twitter引用内では、本文テキストと gallery div のみで構成すること
+- X/Twitter引用内で改行が必要な場合は br を使うこと
 
-- テーブルは sample.txt の table-wrap 形式を使うこと
+- テーブルは scrapbox2html.txt の table-wrap 形式を使うこと
 - table: で始まる行は table の開始として扱うこと
 - table: の後ろの文字列は table のタイトルとして扱うこと
 - table: の次の行はヘッダー行(th)として扱うこと
@@ -50,6 +52,12 @@ class名・タグ構造・レイアウト方針を維持してください。
 
 - > で始まる通常引用行は、1行ごとに空行を入れず、連続した行として詰めて表示すること
 - > で始まる通常引用行を p タグで分割して余白を増やさないこと
+- > で始まる行は、原則として通常引用 blockquote として扱うこと
+- > 行を X/Twitter引用と判定しないこと
+- X/Twitter引用にするのは、Twitter/XのURL行と、その直後に続く引用本文・画像が一体になっている場合のみとすること
+- > 行がX/Twitter投稿本文として使われている場合でも、HTML上では p タグを使わず、x-quote 内の本文テキストとして扱うこと
+- Twitter/X URLを含まない > 行は必ず通常引用 blockquote として扱うこと
+- > はScrapbox上の引用記法であり、X/Twitter引用の印ではない
 
 - 連続する画像は gallery div の中にまとめること
 - gallery は通常画像にも使用してよい
