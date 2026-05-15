@@ -170,15 +170,19 @@ img + img {
 
 .gallery:has(img:only-child) {
   display: block;
-  margin: 4px 0 0;
+  margin: 8px 0 0;
 }
 
 .gallery:has(img:only-child) img {
-  width: auto;
-  max-width: 100%;
-  height: auto;
-  max-height: 420px;
-  background: none;
+  width: 100%;
+  max-width: 440px;
+  height: 220px;
+  object-fit: contain;
+  background: #f3f4f6;
+}
+
+.gallery:has(img:only-child) + p {
+  margin-top: 4px;
 }
 
 figure {
