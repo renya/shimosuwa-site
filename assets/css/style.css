@@ -169,8 +169,16 @@ img + img {
 }
 
 .gallery:has(img:only-child) {
-  display: inline-block;
+  display: block;
   margin: 4px 0 0;
+}
+
+.gallery:has(img:only-child) img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  max-height: 420px;
+  background: none;
 }
 
 figure {
