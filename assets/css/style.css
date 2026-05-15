@@ -173,11 +173,10 @@ img + img {
   margin: 8px 0 0;
 }
 
-.gallery:has(img:only-child) img {
-  width: 100%;
-  max-width: 440px;
-  height: auto;
-  background: none;
+.gallery:has(img:only-child) {
+  display: block;
+  width: fit-content;
+  margin: 8px 0 0;
 }
 
 figure {
