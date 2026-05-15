@@ -1,0 +1,149 @@
+# 入力欄への記入内容
+#
+# これは shimosuwa.info 用の静的HTML変換です。一般的なWeb記事風に整理せず、scrapbox2html.txt のルールを優先してください。
+# scrapbox2html.txt の指示に従って、scrapbox.txt を HTML 化してください。
+# CSSは添付の style.css のみを前提にしてください。
+# 出力は完成した index.html 全文のみでお願いします。
+
+以下のHTML構造をテンプレートとして扱ってください。
+ヘッダーとフッターはそのまま使って下さい。
+class名・タグ構造・レイアウト方針を維持してください。
+
+重要:
+- CSSは添付の style.css のみを前提にすること
+- 新しい class 名・独自CSS・inline style を追加しないこと
+- Grid レイアウトを増やさないこと
+- HTMLは既存CSSで表示可能な構造のみ使用すること
+
+- title・meta description・h1 はページ内容に合わせて変更すること
+- ヘッダーとフッターのHTML構造は維持すること
+
+- index.html はテンプレートとして扱う
+- sample.txt は変換ルールとして扱う
+
+- scrapbox.txt の本文順・内容はできるだけ変えないこと
+- 内容を整理・要約しないこと
+- h2/h3を勝手に追加しないこと
+- 本文中に不要な div を増やさないこと
+- 不要な空白行を増やさないこと
+- class の入れ子を必要以上に深くしないこと
+
+- X/Twitter引用は sample.txt の x-quote 形式を使うこと
+- X/Twitter引用内の連続画像は必ず gallery div の中にまとめること
+- X/Twitter引用中の画像を ul/li にしないこと
+- > 行が連続している場合は同じ x-quote として扱うこと
+- X/Twitter引用ブロックは途中で分割しないこと
+- gallery div の外に X/Twitter引用画像を出さないこと
+
+- テーブルは sample.txt の table-wrap 形式を使うこと
+- table: で始まる行は table の開始として扱うこと
+- table: の後ろの文字列は table のタイトルとして扱うこと
+- table: の次の行はヘッダー行(th)として扱うこと
+- その後のタブ区切り行を table のデータ行(td)として扱うこと
+- table の列数はデータ行の最大列数に合わせること
+- table の列数が不足する行は空セル(td)を補完すること
+- table のヘッダー行が「初日 中日 最終日」のように1列目の見出しを省略している場合、1列目の空見出し th を補完すること
+- ヘッダー行の列数が不足する場合は、先頭または末尾に空の th を補完して列位置を合わせること
+- table は空白やタブで見た目だけを整えず、必ず <table><tr><th><td> で構成すること
+- table 内のセル結合(colspan/rowspan)は使わないこと
+- table は table-wrap div の中に配置すること
+
+- > で始まる通常引用行は、1行ごとに空行を入れず、連続した行として詰めて表示すること
+- > で始まる通常引用行を p タグで分割して余白を増やさないこと
+
+- 出力は完成した index.html 全文のみとする
+
+# テーブルサンプル
+
+<div class="table-wrap">
+  <table>
+    <tr>
+      <th>名称</th>
+      <th>内容</th>
+    </tr>
+    <tr>
+      <td>秋宮</td>
+      <td>諏訪大社下社の一つ</td>
+    </tr>
+    <tr>
+      <td>春宮</td>
+      <td>諏訪大社下社の一つ</td>
+    </tr>
+  </table>
+</div>
+
+# X/Twitter引用サンプル
+
+<div class="x-quote">
+    <span class="x-label">𝕏</span>
+    <a href="https://x.com/shimosuwa_info/status/2048249014173487498" target="_blank" rel="noopener">@shimosuwa_info</a>:
+    居酒屋くろ
+    <div class="gallery">
+      <img src="https://pbs.twimg.com/media/HGzXmjmaQAAMuHB.jpg" alt="お店外観">
+    </div>
+</div>
+
+# 平文とリンクのサンプル
+
+19年5月9日に下社の仮見立てが下諏訪町の東俣国有林で行われた。2時間ほどで8本のモミの候補木を選定。秋宮一之御柱の目通り周囲は362cmで前回より27cm太く、春宮一之御柱は333cmで前回より8cm太い。
+<ul>
+  <li><a href="https://www.hokurikushinkansen-navi.jp/pc/news/article.php?id=NEWS0000019485" target="_blank" rel="noopener">長野県　諏訪大社下社、大祭へ始動　２２年御柱「仮見立て」｜北陸新幹線で行こう！北陸・信越観光ナビ</a></li>
+  <li><a href="http://www.shimin.co.jp/2019/05/%E4%BB%A4%E5%92%8C%E3%81%AE%E5%A4%A7%E7%A5%AD%E3%81%B8%E5%A7%8B%E5%8B%95-%E6%9D%B1%E4%BF%A3%E5%9B%BD%E6%9C%89%E6%9E%97%E3%81%A7%E4%B8%8B%E7%A4%BE%E4%BB%AE%E8%A6%8B%E7%AB%8B%E3%81%A6/" target="_blank" rel="noopener">令和の大祭へ始動 東俣国有林で下社仮見立て | 信州・市民新聞グループ</a></li>
+  </ul>
+
+# ヘッダー（head〜本文開始までのテンプレート）
+
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>令和四壬寅年 諏訪大社 式年造営御柱大祭｜shimosuwa.info</title>
+  <meta name="description" content="令和四壬寅年 諏訪大社 式年造営御柱大祭">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>令和四壬寅年 諏訪大社 式年造営御柱大祭</h1>
+
+   <div class="tags">
+     <a class="tag" href="/pages/文化/">文化</a>
+   </div>
+
+    <p class="description">
+        このページでは2022年の春に行われた<a href="/pages/諏訪大社/">諏訪大社</a>の<a href="/pages/御柱大祭/">御柱大祭</a>に向けた動きを整理しました。
+    </p>
+
+
+# フッター（footer-nav〜html終了まで）
+
+    <div class="footer-nav">
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="/contact/" class="footer-banner">
+        <img src="https://i.gyazo.com/51c054681e8ff77398fc8f0916e18e54.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>
+
+
+# 禁止事項
+
+- article を増やさない
+- section を増やさない
+- card UI化しない
+- iframe埋め込みを使わない
+- Twitter公式埋め込みを使わない
