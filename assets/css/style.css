@@ -153,7 +153,7 @@ img + img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
-  margin: 12px 0;
+  margin: 12px 0 6px;
 }
 
 .gallery img {
@@ -165,7 +165,7 @@ img + img {
 }
 
 .gallery + p {
-  margin-top: 10px;
+  margin-top: 0px;
 }
 
 figure {
