@@ -13,12 +13,10 @@
 
     <text x="58" y="174" font-size="22">上社</text>
     <text x="130" y="174" font-size="22">01 02 03</text>
-    <text x="214" y="174" font-size="22">・</text>
     <text x="278" y="174" font-size="22">03 04 05</text>
 
     <text x="58" y="208" font-size="22">下社</text>
     <text x="130" y="208" font-size="22">08 09 10</text>
-    <text x="214" y="208" font-size="22">・</text>
     <text x="278" y="208" font-size="22">12 13 14</text>
   </g>
 </svg>
