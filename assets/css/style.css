@@ -153,14 +153,14 @@ img + img {
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 16px;
-  margin: 12px 0 6px;
+  margin: 8px 0 6px;
 }
 
 .gallery img {
   width: 100%;
-  height: 220px;        /* 高さを揃える */
-  object-fit: contain;  /* 全体を表示 */
-  background: #f3f4f6;  /* 余白を目立たなくする */
+  height: auto;
+  object-fit: contain;
+  background: #f3f4f6;
   border-radius: 10px;
 }
 
