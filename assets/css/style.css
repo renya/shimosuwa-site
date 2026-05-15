@@ -164,15 +164,9 @@ img + img {
   border-radius: 10px;
 }
 
-.single-image {
-  margin: 4px 0;
-}
-
-.single-image img {
-  display: block;
-  width: 440px;
-  max-width: 100%;
-  border-radius: 10px;
+.gallery img:only-child {
+  width: 100%;
+  max-width: 440px;
 }
 
 figure {
