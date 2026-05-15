@@ -165,16 +165,19 @@ img + img {
 }
 
 .gallery + p {
-  margin-top: 0px;
+  margin-top: 0;
 }
 
 .gallery:has(img:only-child) {
   display: block;
+  margin: 8px 0 0;
 }
 
 .gallery:has(img:only-child) img {
   width: 100%;
   max-width: 440px;
+  height: auto;
+  background: none;
 }
 
 figure {
