@@ -467,14 +467,14 @@ td {
 ========================= */
 
 .timeline-log {
-  margin: 1.5em 0;
-  padding: 1em 1.2em;
-  background: #f8f9fb;
-  border: 1px solid #d9e1ea;
+  margin: 24px 0;
+  padding: 14px 16px;
+  background: #f8fafc;
+  border: 1px solid #dbe3ec;
   border-radius: 12px;
   color: #333;
-  line-height: 1.9;
-  font-size: 0.95rem;
+  line-height: 1.7;
+  font-size: 15px;
   overflow-x: auto;
 }
 
