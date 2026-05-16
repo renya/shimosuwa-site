@@ -351,6 +351,15 @@ a:hover {
   text-decoration: underline;
 }
 
+.dead-link {
+  color: #777;
+  opacity: 0.7;
+}
+
+.dead-link:hover {
+  opacity: 1;
+}
+
 /* =========================
    スマホ対応
 ========================= */
