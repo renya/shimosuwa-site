@@ -537,11 +537,14 @@ td {
 }
 
 .video-figure .video-small {
-  margin: 0;
+  width: 100%;
   max-width: none;
+  margin: 0;
 }
 
 .video-figure iframe {
   display: block;
+  width: 100%;
+  height: 100%;
   border-radius: 12px 12px 0 0;
 }
