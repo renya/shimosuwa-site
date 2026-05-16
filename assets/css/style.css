@@ -461,3 +461,40 @@ th {
 td {
   background: #fff;
 }
+
+/* =========================
+   タイムラインログ
+========================= */
+
+.timeline-log {
+  margin: 1.5em 0;
+  padding: 1em 1.2em;
+  background: #f8f9fb;
+  border: 1px solid #d9e1ea;
+  border-radius: 12px;
+  color: #333;
+  line-height: 1.9;
+  font-size: 0.95rem;
+  overflow-x: auto;
+}
+
+.timeline-log p {
+  margin-top: 0;
+  margin-bottom: 0.8em;
+  color: #666;
+  font-size: 0.9rem;
+}
+
+.timeline-log br {
+  line-height: 2;
+}
+
+.timeline-log .time {
+  font-family:
+    ui-monospace,
+    SFMono-Regular,
+    Consolas,
+    monospace;
+  color: #555;
+  font-size: 0.92em;
+}
