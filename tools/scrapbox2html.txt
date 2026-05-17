@@ -1,9 +1,8 @@
 # 入力欄への記入内容
-#
-# これは shimosuwa.info 用の静的HTML変換です。一般的なWeb記事風に整理せず、scrapbox2html.txt のルールを優先してください。
-# scrapbox2html.txt の指示に従って、scrapbox.txt を HTML 化してください。
-# CSSは添付の style.css のみを前提にしてください。
-# 出力は完成した index.html 全文のみでお願いします。
+これは shimosuwa.info 用の静的HTML変換です。一般的なWeb記事風に整理せず、scrapbox2html.txt のルールを優先してください。
+scrapbox2html.txt の指示に従って、scrapbox.txt を HTML 化してください。
+CSSは添付の style.css のみを前提にしてください。
+出力は完成した index.html 全文のみでお願いします。
 
 以下のHTML構造をテンプレートとして扱ってください。
 ヘッダーとフッターはそのまま使って下さい。
