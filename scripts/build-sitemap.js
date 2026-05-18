@@ -16,17 +16,47 @@ function getDirectories(dir) {
     .map((entry) => entry.name);
 }
 
+function getLastMod(filePath) {
+  const stat = fs.statSync(filePath);
+
+  return stat.mtime.toISOString().split("T")[0];
+}
+
 const urls = [];
 
 // top page
-urls.push(`${ROOT_URL}/`);
+{
+  const topIndex = path.join(__dirname, "../index.html");
+
+  let lastmod = null;
+
+  if (fs.existsSync(topIndex)) {
+    lastmod = getLastMod(topIndex);
+  }
+
+  urls.push({
+    url: `${ROOT_URL}/`,
+    lastmod,
+  });
+}
 
 // pages/*
 if (fs.existsSync(pagesDir)) {
   const pageDirs = getDirectories(pagesDir);
 
   for (const name of pageDirs) {
-    urls.push(`${ROOT_URL}/pages/${encodeURIComponent(name)}/`);
+    const indexPath = path.join(pagesDir, name, "index.html");
+
+    let lastmod = null;
+
+    if (fs.existsSync(indexPath)) {
+      lastmod = getLastMod(indexPath);
+    }
+
+    urls.push({
+      url: `${ROOT_URL}/pages/${encodeURIComponent(name)}/`,
+      lastmod,
+    });
   }
 }
 
@@ -37,22 +67,49 @@ if (fs.existsSync(listDir)) {
   for (const name of listDirs) {
     if (name === "assets") continue;
 
-    urls.push(`${ROOT_URL}/list/${encodeURIComponent(name)}/`);
+    const indexPath = path.join(listDir, name, "index.html");
+
+    let lastmod = null;
+
+    if (fs.existsSync(indexPath)) {
+      lastmod = getLastMod(indexPath);
+    }
+
+    urls.push({
+      url: `${ROOT_URL}/list/${encodeURIComponent(name)}/`,
+      lastmod,
+    });
   }
 
   // /list/
-  urls.push(`${ROOT_URL}/list/`);
+  const listIndex = path.join(listDir, "index.html");
+
+  let lastmod = null;
+
+  if (fs.existsSync(listIndex)) {
+    lastmod = getLastMod(listIndex);
+  }
+
+  urls.push({
+    url: `${ROOT_URL}/list/`,
+    lastmod,
+  });
 }
 
 // XML生成
 const xml = `<?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 ${urls
-  .map(
-    (url) => `  <url>
-    <loc>${url}</loc>
-  </url>`
-  )
+  .map((item) => {
+    return `  <url>
+    <loc>${item.url}</loc>
+    ${
+      item.lastmod
+        ? `<lastmod>${item.lastmod}</lastmod>`
+        : ""
+    }
+  </url>`;
+  })
   .join("\n")}
 </urlset>
 `;
