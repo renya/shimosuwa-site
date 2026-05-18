@@ -40,6 +40,18 @@ const urls = [];
   });
 }
 
+// contact/
+{
+  const contactIndex = path.join(__dirname, "../contact/index.html");
+
+  if (fs.existsSync(contactIndex)) {
+    urls.push({
+      url: `${ROOT_URL}/contact/`,
+      lastmod: getLastMod(contactIndex),
+    });
+  }
+}
+
 // pages/*
 if (fs.existsSync(pagesDir)) {
   const pageDirs = getDirectories(pagesDir);
