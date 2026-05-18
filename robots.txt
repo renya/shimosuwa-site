@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+Disallow: /scripts/
+Disallow: /tools/
+
+Sitemap: https://shimosuwa.info/sitemap.xml
