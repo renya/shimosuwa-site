@@ -22,6 +22,15 @@ function getLastMod(filePath) {
   return stat.mtime.toISOString().split("T")[0];
 }
 
+function escapeXml(str) {
+  return str
+    .replace(/&/g, "&amp;")
+    .replace(/"/g, "&quot;")
+    .replace(/'/g, "&apos;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;");
+}
+
 const urls = [];
 
 // top page
@@ -114,7 +123,7 @@ const xml = `<?xml version="1.0" encoding="UTF-8"?>
 ${urls
   .map((item) => {
     return `  <url>
-    <loc>${item.url}</loc>
+    <loc>${escapeXml(item.url)}</loc>
     ${
       item.lastmod
         ? `<lastmod>${item.lastmod}</lastmod>`
