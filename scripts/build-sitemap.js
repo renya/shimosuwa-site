@@ -75,7 +75,7 @@ if (fs.existsSync(pagesDir)) {
     }
 
     urls.push({
-      url: `${ROOT_URL}/pages/${encodeURIComponent(name)}/`,
+      url: `${ROOT_URL}/pages/${name}/`,
       lastmod,
     });
   }
@@ -97,7 +97,7 @@ if (fs.existsSync(listDir)) {
     }
 
     urls.push({
-      url: `${ROOT_URL}/list/${encodeURIComponent(name)}/`,
+      url: `${ROOT_URL}/list/${name}/`,
       lastmod,
     });
   }
