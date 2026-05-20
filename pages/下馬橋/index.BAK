@@ -4,8 +4,8 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>綿の湯｜shimosuwa.info</title>
-  <meta name="description" content="綿の湯">
+  <title>下馬橋｜shimosuwa.info</title>
+  <meta name="description" content="下馬橋">
 
   <!-- favicon -->
   <link rel="icon" href="/favicon.ico">
@@ -23,27 +23,25 @@
 
   <main class="container">
 
-    <h1>綿の湯</h1>
+    <h1>下馬橋</h1>
 
  <div class="tags">
    <a class="tag" href="/pages/スポット/">スポット</a>
  </div>
 
 <div class="meta">
-  <div><span>住所:</span> 下諏訪町</div>
-  <div><span>地図:</span> <a href="https://www.google.com/maps?q=36.07596855875428,138.09029433287844" class="map-link" target="_blank">Google Mapsで見る</a></div>
+  <div><span>住所:</span> 下諏訪町大門</div>
+  <div><span>地図:</span> <a href="https://www.google.com/maps?q=36.08027834574024,138.08187598829468" class="map-link" target="_blank">Google Mapsで見る</a></div>
 </div>
 
-    <!-- <p class="description">
-    </p> -->
+    <p class="description">
+      <a href="/pages/春宮/">春宮</a>前にある屋根付きの太鼓橋(反り橋)は天正6年(1578)建造で諏訪大社下社最古の建造物とされています。<br>
+      <a href="/pages/春の遷座祭/">遷座祭</a>、<a href="/pages/お舟祭り/">お舟祭り</a>の際には、御霊代を載せた神輿だけがここを通ります。
+    </p>
 
     <div class="gallery">
-<figure>
-  <img src="https://i.suwa.info/p/spot/watanoyu.jpg" alt="綿の湯の碑">
-  <figcaption>
-    <small></small>
-  </figcaption>
-</figure>
+      <img src="https://i.gyazo.com/5ddf3eaef8ab615edd40e5bf7ff1c33c.jpg" alt="春宮側から">
+      <img src="https://i.gyazo.com/656e37b27f8832073ee77b745b34484f.jpg" alt="大門側から">
     </div>
 
     <div class="footer-nav">
