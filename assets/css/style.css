@@ -146,6 +146,13 @@ img + img {
   border-radius: 12px;
 }
 
+figure video {
+  display: block;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
 /* =========================
    ギャラリー
 ========================= */
