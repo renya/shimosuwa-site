@@ -2,6 +2,7 @@
 
 const fs = require("fs");
 const path = require("path");
+const { exec } = require("child_process");
 
 const pageName = process.argv[2];
 
@@ -46,3 +47,10 @@ fs.mkdirSync(outputDir, { recursive: true });
 fs.writeFileSync(outputPath, html, "utf8");
 
 console.log(`Created: /pages/${pageName}/index.html`);
+
+exec(`code -r "${outputPath}"`, (error) => {
+  if (error) {
+    console.error("VS Codeで開けませんでした");
+    console.error(error.message);
+  }
+});
