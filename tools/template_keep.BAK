@@ -11,6 +11,10 @@
   <link rel="icon" href="/favicon.ico">
   <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
 
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
   <!-- 共通CSS -->
   <link rel="stylesheet" href="/assets/css/style.css">
 </head>
@@ -22,24 +26,17 @@
     <h1></h1>
 
 <div class="tags">
-  <a class="tag" href="/pages/宿泊/">宿泊</a>
-  <a class="tag" href="/pages/food/">グルメ</a>
+  <a class="tag" href="/pages//"></a>
 </div>
 
 <div class="meta">
   <div><span>営業時間:</span> 〜</div>
-  <div><span>定休日:</span> </div>
-  <div><span>住所:</span> 下諏訪町</div>
-  <!-- <div><span>備考:</span> </div> -->
 </div>
 
-    <!-- <p class="description">
-      <br>
-    </p> -->
+<!-- このページ内容に関する説明 -->
+    <p class="description">
+    </p>
 
-    <div class="gallery">
-      <img src="" alt="お店外観">
-    </div>
 <!-- 画像とその説明 -->
     <div class="gallery">
 <figure>
@@ -49,6 +46,16 @@
   </figcaption>
 </figure>
     </div>
+
+<!-- X投稿の引用 -->
+<div class="x-quote">
+    <span class="x-label">𝕏</span>
+    <a href="https://x.com/shimosuwa_info/" target="_blank" rel="noopener">@shimosuwa_info</a>:
+    
+    <div class="gallery">
+      <img src="https://i.suwa.info/p/" alt="">
+    </div>
+</div>
 
         <h2>関連リンク</h2>
 
@@ -60,18 +67,13 @@
 </div>
 
     <div class="footer-nav">
-
       <a href="/pages/" class="footer-link">
         一覧へ→
       </a>
-
       <a href="/contact/" class="footer-banner">
         <img src="/assets/contact.png" alt="お問い合わせ">
       </a>
-
     </div>
-
   </main>
-
 </body>
 </html>
