@@ -2,10 +2,10 @@
 
 ## overview
 
-- static HTML site
+- static HTML centered site
 - hosted on Cloudflare Pages
 - source managed with GitHub
-- no client-side JavaScript
+- JavaScript used only in /view/ interactive viewers
 - local build scripts run with Node.js
 
 ## repositories
@@ -131,3 +131,51 @@ GitHub push
 Cloudflare Pages deploy
 ↓
 Production publish
+
+### /view/
+
+Interactive viewer pages.
+
+Used for:
+
+- Leaflet maps
+- GPX route display
+- boundary visualization
+- point-focused map views
+
+Features:
+
+- OpenStreetMap based
+- lightweight client-side JavaScript
+- reusable single-page viewers
+- URL parameter support
+- popup-based point navigation
+- zoom control via URL parameters
+
+Example:
+
+/view/shimosuwa?lat=36.11&lng=138.15&name=八島山荘&zoom=16
+
+Purpose:
+
+- internal map linking from article pages
+- interactive geographic views
+- reusable location viewer architecture
+
+### /p/
+
+Static asset hosting.
+
+Used for:
+
+- photos
+- PNG preview images
+- GPX preview images
+- lightweight direct image access
+
+Goals:
+
+- separate binary assets
+- lightweight main repositories
+- stable image URLs
+- reusable image hosting via i.suwa.info

@@ -9,8 +9,8 @@
 
 ## HTML style
 
-- static HTML pages
-- no client-side JavaScript
+- article pages are primarily static HTML
+- JavaScript used only for lightweight /view/ interactive viewers
 - shared CSS in /assets/css/style.css
 
 ## page structure
@@ -56,3 +56,17 @@ See:
 - Often hosted separately
 - Prefer lightweight pages
 - Preserve original context of photos
+
+## map links
+
+Prefer internal interactive map links.
+
+Examples:
+
+/view/shimosuwa?lat=...&lng=...&name=...
+
+Goals:
+
+- preserve site continuity
+- avoid unnecessary external map dependency
+- support reusable geographic navigation
