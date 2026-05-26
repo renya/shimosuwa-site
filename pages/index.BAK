@@ -25,7 +25,7 @@
     </p>
 
 <div class="list">
-  <a href="https://i.suwa.info/view/shimosuwa.html?points=map-data.js" target="_blank" rel="noopener" class="card card-post">
+  <a href="https://i.suwa.info/view/shimosuwa?points=map-data.js" target="_blank" rel="noopener" class="card card-post">
     <div class="card-title">地図から探す</div>
     <div class="card-desc"></div>
   </a>
