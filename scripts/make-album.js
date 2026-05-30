@@ -64,7 +64,7 @@ const galleryHtml = files
   .map(function (file) {
     return [
       "      <figure>",
-      '        <img src="' + IMAGE_BASE + file + '" alt="">',
+      '        <img src="' + IMAGE_BASE + file + '" alt="" loading="lazy">',
       "        <figcaption>",
       "          <small></small>",
       "        </figcaption>",
