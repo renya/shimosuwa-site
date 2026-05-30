@@ -53,7 +53,7 @@ const files = fs
     return line.trim();
   })
   .filter(function (line) {
-    return line.length > 0;
+    return /\.(jpg|jpeg|png|webp)$/i.test(line);
   });
 
 // ------------------------------------
