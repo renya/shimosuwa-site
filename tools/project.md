@@ -382,3 +382,136 @@ node scripts/build-sitemap.js
 - DNS centralized in Cloudflare
 - Remove custom domains before deleting repos
 - Prefer keeping repositories rather than deleting
+
+---
+
+# site roles
+
+## domain roles
+
+The project uses multiple domains with different scopes.
+
+The purpose is not to create separate unrelated sites, but to organize content according to its natural subject area.
+
+### shimosuwa.info
+
+Primary regional archive focused on Shimotsuwa.
+
+Examples:
+
+- Akimiya Shrine
+- Harumiya Shrine
+- Manji Stone Buddha
+- Shimotsuwa Station
+- Yashima Wetland
+- local history
+- local hiking routes
+
+Rule:
+
+Content directly related to Shimotsuwa should generally be published on shimosuwa.info.
+
+### suwa.info
+
+Broader Suwa-area archive.
+
+Used for content that belongs to the wider Suwa region rather than Shimotsuwa specifically.
+
+Examples:
+
+- Maemiya Shrine
+- Kamisha Honmiya
+- Lake Suwa
+- Kirigamine
+- Yatsugatake
+- Onbashira Festival
+- Suwa City
+- Chino City
+- Okaya City
+
+Rule:
+
+Content that is part of the Suwa region but not naturally centered on Shimotsuwa may be published on suwa.info.
+
+### renya.com
+
+Personal publishing platform.
+
+Used for:
+
+- personal notes
+- technical articles
+- camera notes
+- travel records
+- experiments
+- topics outside the Suwa region
+
+Rule:
+
+Content that does not naturally belong to shimosuwa.info or suwa.info may be published on renya.com.
+
+## pages philosophy
+
+The /pages/ structure is intentionally domain-neutral.
+
+Pages are treated as individual content units rather than category containers.
+
+Examples:
+
+/pages/前宮/
+/pages/諏訪湖/
+/pages/御柱祭/
+/pages/八ヶ岳/
+/pages/諏訪市/
+
+All pages are considered first-class content.
+
+Administrative boundaries should not be used as the primary site structure.
+
+City and town names may exist as pages, tags, or related links, but should not be required as top-level categories.
+
+Prefer:
+
+- page-based organization
+- cross-linking
+- tags
+- related content
+
+over rigid geographic hierarchies.
+
+## suwa.info usage
+
+suwa.info is not intended to be a municipality portal.
+
+The preferred approach is:
+
+- keep the root site simple
+- allow gradual growth through /pages/
+- avoid unnecessary category structures
+- create pages only when needed
+
+The existence of a page does not define the identity of the entire domain.
+
+Examples:
+
+/pages/前宮/
+/pages/上社本宮/
+/pages/諏訪湖/
+
+may exist independently without requiring a dedicated top-level category structure.
+
+## cross-domain linking
+
+Cross-domain links between project sites are acceptable.
+
+Examples:
+
+shimosuwa.info → suwa.info
+suwa.info → shimosuwa.info
+renya.com → suwa.info
+
+The goal is to maintain a coherent publishing ecosystem rather than completely isolated sites.
+
+When content naturally belongs to another domain, redirects or canonical URLs may be used.
+
+Preserving existing URLs remains important whenever practical.
