@@ -5,8 +5,8 @@ node make-album.js https://i.suwa.info/p/onbashira-2010-04-10/
 
 必要なファイル
 
-filelist.txt (dir /b >filelist.txt on cmd)
 make-album.js
+画像ファイル一式
 
 生成結果
 
@@ -37,22 +37,18 @@ const IMAGE_BASE =
 // 設定
 // ------------------------------------
 
-const FILELIST = "filelist.txt";
 const OUTPUT = "album.html";
 
 // ------------------------------------
-// filelist.txt 読み込み
+// 画像一覧取得
 // ------------------------------------
 
 const files = fs
-  .readFileSync(FILELIST, "utf8")
-  .split(/\r?\n/)
-  .map(function (line) {
-    return line.trim();
+  .readdirSync(".")
+  .filter(function (file) {
+    return /\.(jpg|jpeg|png|webp)$/i.test(file);
   })
-  .filter(function (line) {
-    return /\.(jpg|jpeg|png|webp)$/i.test(line);
-  });
+  .sort();
 
 // ------------------------------------
 // ギャラリーHTML生成
@@ -63,6 +59,9 @@ const galleryHtml = files
     return [
       "      <figure>",
       '        <img src="' + IMAGE_BASE + file + '" alt="" loading="lazy">',
+      "        <figcaption>",
+      "          <small></small>",
+      "        </figcaption>",
       "      </figure>"
     ].join("\n");
   })
@@ -98,24 +97,26 @@ const html = `<!DOCTYPE html>
 
   <h1>アルバム</h1>
 
-    <!-- タグ -->
-    <div class="tags">
-      <a class="tag" href="/pages//"></a>
-    </div>
+  <!-- タグ -->
+  <div class="tags">
+    <a class="tag" href="/pages//"></a>
+  </div>
 
   <div class="gallery">
 ${galleryHtml}
   </div>
 
-    <div class="footer-nav">
-      <a href="/pages/" class="footer-link">
-        一覧へ→
-      </a>
-      <a href="/contact/" class="footer-banner">
-        <img src="/assets/contact.png" alt="お問い合わせ">
-      </a>
-    </div>
+  <div class="footer-nav">
+    <a href="/pages/" class="footer-link">
+      一覧へ→
+    </a>
+    <a href="/contact/" class="footer-banner">
+      <img src="/assets/contact.png" alt="お問い合わせ">
+    </a>
+  </div>
+
 </main>
+
 </body>
 </html>`;
 
