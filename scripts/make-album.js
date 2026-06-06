@@ -6,7 +6,6 @@ node make-album.js https://i.suwa.info/p/onbashira-2010-04-10/
 必要なファイル
 
 filelist.txt (dir /b >filelist.txt on cmd)
-template.html
 make-album.js
 
 生成結果
@@ -39,7 +38,6 @@ const IMAGE_BASE =
 // ------------------------------------
 
 const FILELIST = "filelist.txt";
-const TEMPLATE = "template.html";
 const OUTPUT = "album.html";
 
 // ------------------------------------
@@ -65,36 +63,67 @@ const galleryHtml = files
     return [
       "      <figure>",
       '        <img src="' + IMAGE_BASE + file + '" alt="" loading="lazy">',
-      "        <figcaption>",
-      "          <small></small>",
-      "        </figcaption>",
       "      </figure>"
     ].join("\n");
   })
   .join("\n");
 
 // ------------------------------------
-// テンプレート読込み
+// HTML生成
 // ------------------------------------
 
-const template = fs.readFileSync(TEMPLATE, "utf8");
+const html = `<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
 
-// ------------------------------------
-// gallery置換
-// ------------------------------------
+  <title>アルバム｜shimosuwa.info</title>
+  <meta name="description" content="">
 
-const output = template.replace(
-  /<div class="gallery">[\s\S]*?<\/div>/,
-  '<div class="gallery">\n' +
-    galleryHtml +
-    "\n</div>"
-);
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+
+<main class="container">
+
+  <h1>アルバム</h1>
+
+    <!-- タグ -->
+    <div class="tags">
+      <a class="tag" href="/pages//"></a>
+    </div>
+
+  <div class="gallery">
+${galleryHtml}
+  </div>
+
+    <div class="footer-nav">
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="/contact/" class="footer-banner">
+        <img src="/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+</main>
+</body>
+</html>`;
 
 // ------------------------------------
 // 出力
 // ------------------------------------
 
-fs.writeFileSync(OUTPUT, output, "utf8");
+fs.writeFileSync(OUTPUT, html, "utf8");
 
 console.log("完了: " + OUTPUT);
 console.log("画像数: " + files.length);
