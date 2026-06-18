@@ -17,7 +17,9 @@ const allowedTags = new Set([
   "出来事",
   "諏訪の酒",
   "アルバム",
-  "諏訪圏"
+  "諏訪圏",
+  "諏訪大社",
+  "御柱祭"
 ]);
 
 const tagPages = new Map();
