@@ -9,7 +9,7 @@ const listDir = path.join(root, "list");
 const allowedTags = new Set([
   "周辺地域",
   "スポット",
-  "共同浴場",
+  "温泉",
   "グルメ",
   "文化",
   "買い物",
