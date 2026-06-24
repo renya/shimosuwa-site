@@ -19,7 +19,8 @@ const allowedTags = new Set([
   "アルバム",
   "諏訪圏",
   "諏訪大社",
-  "御柱祭"
+  "御柱祭",
+  "ワイン"
 ]);
 
 const tagPages = new Map();
