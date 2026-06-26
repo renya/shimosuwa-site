@@ -49,7 +49,16 @@ const html = `<!DOCTYPE html>
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="stylesheet" href="/assets/css/style.css">
-</head>
+  <!-- Google Analytics (GA4) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-JDE490GKVT');
+  </script>
+  </head>
 
 <body>
   <main class="container">
