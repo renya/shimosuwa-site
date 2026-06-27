@@ -1,13 +1,13 @@
 @echo off
 
-REM Web掲載用動画圧縮
-REM 720p版
+REM Web�f�ڗp���戳�k
+REM 720p��
 REM H.264 / 1280px / CRF27 / faststart
-REM 動画をこのBATへドラッグするだけ
-REM 出力：
+REM ���������BAT�փh���b�O���邾��
+REM �o�́F
 REM   *_web.mp4
 REM   *_web.jpg (poster)
-REM HTMLの記述例は八島湿原のページを参照
+REM HTML�̋L�q��͔��������̃y�[�W���Q��
 
 ffmpeg -i "%~1" ^
 -vf scale=1280:-2 ^
