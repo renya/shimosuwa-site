@@ -86,6 +86,7 @@ Contains:
 - mp4 videos
 - /p/
 - /view/
+- /go/
 
 Naming:
 
@@ -232,6 +233,26 @@ Goals:
 - separate binary assets
 - lightweight main repositories
 - stable image URLs
+- hosted via i.suwa.info
+
+### /go/
+
+Permanent public redirect URLs.
+
+Used for:
+
+- Instagram related page links
+- Scrapbox links
+- QR codes
+- printed materials
+- public sharing URLs
+
+Goals:
+
+- human-readable ASCII URLs
+- stable public URLs
+- decouple public URLs from internal page structure
+- lightweight static HTML redirects
 - hosted via i.suwa.info
 
 ---
