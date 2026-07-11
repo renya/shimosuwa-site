@@ -22,19 +22,18 @@ REM ドラッグ＆ドロップして一括変換
 REM
 REM 大量変換（100枚以上）は
 REM IrfanViewのBatch Conversionを使用
-REM 方法は irfanview-web-photo-convert.md を参照
+REM 方法は irfanview-web-photo-convert 参照
 REM
 REM ==========================================
 
-set "IRFAN=C:\Program Files\IrfanView\i_view64.exe"
+set IRFAN="C:\Program Files\IrfanView\i_view64.exe"
 
-if not exist "%IRFAN%" (
+if not exist %IRFAN% (
     echo.
     echo IrfanView が見つかりません。
     echo %IRFAN%
-    echo.
     pause
-    exit /b 1
+    exit /b
 )
 
 if "%~1"=="" (
@@ -46,32 +45,21 @@ if "%~1"=="" (
     exit /b
 )
 
-echo.
-echo ==========================
-echo Web掲載用画像へ変換開始
-echo ==========================
-echo.
-
 for %%F in (%*) do (
-
+    echo.
     echo 変換中: %%~nxF
 
-    "%IRFAN%" "%%~fF" ^
-        /resize_long=1920 ^
-        /aspectratio ^
-        /resample ^
-        /jpgq=85 ^
-        /convert="%%~dpnF_web.jpg"
+    %IRFAN% "%%~fF" ^
+     /resize_long=1920 ^
+     /aspectratio ^
+     /resample ^
+     /jpgq=85 ^
+     /convert="%%~dpnF_web.jpg"
 
-    if errorlevel 1 (
-        echo エラー: %%~nxF
-    ) else (
-        echo 完了: %%~dpnF_web.jpg
-    )
-
-    echo.
+    echo 完了: %%~dpnF_web.jpg
 )
 
+echo.
 echo ==========================
 echo すべての変換が完了しました。
 echo ==========================
