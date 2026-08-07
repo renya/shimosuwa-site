@@ -123,14 +123,14 @@ if (linkedTags.has(tagName)) {
     window.dataLayer = window.dataLayer || [];
     function gtag(){dataLayer.push(arguments);}
     gtag('js', new Date());
-
     gtag('config', 'G-JDE490GKVT');
   </script>
   </head>
-
 <body>
-  <main class="container">
-    <h1>${tagName}</h1>
+
+<main class="container">
+
+<h1>${tagName}</h1>
 
 <p class="description">
   <a href="/pages/${tagName}/">${tagName}</a>タグが付いたページリストを表示しています。<br>
