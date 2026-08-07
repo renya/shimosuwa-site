@@ -8,31 +8,18 @@ const listDir = path.join(root, "list");
 // 自動生成したいタグ
 const allowedTags = new Set([
   "周辺地域",
-  "諏訪圏",
   "スポット",
-  "共同浴場",
+  "温泉",
   "グルメ",
   "文化",
   "買い物",
   "宿泊",
   "出来事",
-  "地ビール",
+  "諏訪の酒",
   "アルバム",
+  "諏訪圏",
   "諏訪大社",
   "御柱祭",
-  "諏訪の酒",
-  "温泉",
-  "ワイン"
-]);
-
-// 相互連携するタグ
-const linkedTags = new Set([
-  "スポット",
-  "温泉",
-  "グルメ",
-  "買い物",
-  "宿泊",
-  "諏訪大社",
   "ワイン"
 ]);
 
@@ -86,15 +73,9 @@ function buildTagPage(tagName, items) {
     new Map(items.map(item => [item.url, item])).values()
   ).sort((a, b) => a.title.localeCompare(b.title, "ja"));
 
-let listHtml = uniqueItems.map(item => {
-  return `      <li><a href="${item.url}">${item.title}</a></li>`;
-}).join("\n");
-
-if (linkedTags.has(tagName)) {
-  listHtml =
-    `      <li><a href="https://suwa.info/list/${tagName}/">信州・諏訪エリアの${tagName}ページリスト</a></li>\n`
-    + listHtml;
-}
+  const listHtml = uniqueItems.map(item => {
+    return `      <li><a href="${item.url}">${item.title}</a></li>`;
+  }).join("\n");
 
   return `<!DOCTYPE html>
 <html lang="ja">
