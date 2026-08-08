@@ -70,7 +70,7 @@ const html = `<!DOCTYPE html>
 </p>
 
     <ul>
-    <li><a href="https://suwa.info/list/">信州・諏訪エリアの情報ページリスト</a></li>
+    <li>▶<a href="https://suwa.info/list/">信州・諏訪エリアの情報ページリスト</a></li>
 ${listHtml}
     </ul>
 
