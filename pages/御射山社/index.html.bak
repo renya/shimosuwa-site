@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>御射山社｜shimosuwa.info</title>
+  <meta name="description" content="御射山の神、原山の神などを祀る神社。七島八島高原の旧御射山社から遷座し、例祭「御射山社祭(はらやまさま)」では神池へドジョウを放つ神事が行われます。">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JDE490GKVT');
+</script>
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>御射山社</h1>
+
+<div class="tags">
+  <a class="tag" href="/pages/スポット/">スポット</a>
+</div>
+
+    <p class="description">
+        <a href="/pages/諏訪大社/">諏訪大社</a>下社の摂社。
+        御射山の神、原山の神などを祀る。<a href="/pages/七島八島/">七島八島</a>高原の<a href="/pages/旧御射山社/">旧御射山社</a>から遷座し、現在の秋宮から霧ヶ峰への道中の地に鎮座する。
+    </p>
+
+<div class="meta">
+  <div><span>住所:</span> </div>
+  <div><span>地図:</span> <a href="https://i.suwa.info/view/shimosuwa.html?lat=36.0909983462937&lng=138.11091244566273&zoom=16&name=御射山社入口&points=map-data.js&type=taisha" class="map-link" target="_blank">開く</a></div>
+</div>
+
+    <p>
+        鎮座地は<a href="/pages/諏訪大社/">諏訪大社</a>下社<a href="/pages/秋宮/">秋宮</a>から車で約10～15分。<a href="/pages/秋宮/">秋宮</a>から<a href="/pages/いずみ湖/">いずみ湖</a>、<a href="https://suwa.info/pages/蓼の海/">蓼の海</a>を経由して霧ヶ峰へ向かう道の途中、向陽高校から登って<a href="/pages/いずみ湖/">いずみ湖</a>までの間にある分岐を左に入った先の山中にあります。
+        地図で見ると<a href="/pages/旧御射山社/">旧御射山社</a>と<a href="/pages/秋宮/">秋宮</a>を直線で結んだほぼ半分の位置になります。
+    </p>
+
+    <div class="gallery">
+      <figure>
+        <img src="https://i.suwa.info/p/taisha/misayama-entrance.jpg" alt="">
+        <figcaption>
+            入口の石碑と鳥居
+          <small></small>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="https://i.suwa.info/p/taisha/misayama-ike.jpg" alt="">
+        <figcaption>
+            神池。例祭の際にドジョウが放たれます
+          <small></small>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="https://i.suwa.info/p/taisha/misayama-shrine.jpg" alt="">
+        <figcaption>
+            神殿。向かって左から兒宮社、御射山社、八千矛社が並ぶ
+          <small></small>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="https://i.suwa.info/p/taisha/misayama-harayama.jpg" alt="">
+        <figcaption>
+            御射山社神殿とは別の峰にある国常立命社の神殿
+          <small></small>
+        </figcaption>
+      </figure>
+    </div>
+
+    <p>
+        例祭は毎年8月27日を中心に行われる御射山社祭(はらやまさま)です。
+        豊穣祈願とともに数え年2歳の子供の厄除健勝祈願も行われます。
+        厄を託したドジョウを柄杓から神池に放ち子供の健やかな成長を願います。<br>
+        山中まで行くのは難しい場合、同じ期間、秋宮でも祈願、放生する事が出来ます。
+    </p>
+
+        <h2>関連リンク・投稿</h2>
+
+<div class="list">
+  <a href="https://www.instagram.com/p/Da2bfvrAXNf/" target="_blank" rel="noopener" class="card card-post">
+    <div class="card-title">Instagram</div>
+    <div class="card-desc">コメントがあればインスタでも</div>
+  </a>
+
+  <a href="https://suwataisha.or.jp/praying/misyayamasai/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">御射山祭 - 信濃國一之宮 諏訪大社</div>
+    <div class="card-desc"></div>
+  </a>
+</div>
+
+<ul class="link-list">
+<li><a href="https://www.shimin.co.jp/archives/11082">ドジョウ放ち健康祈願　諏訪大社下社御射山社祭 きょうまで 下諏訪町 | 信州・市民新聞グループ</a></li>
+</ul>
+
+    <div class="footer-nav">
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="/contact/" class="footer-banner">
+        <img src="/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>

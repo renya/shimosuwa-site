@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>棚木場｜shimosuwa.info</title>
+  <meta name="description" content="">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-JDE490GKVT');
+</script>
+
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>棚木場</h1>
+
+    <!-- タグ -->
+    <div class="tags">
+      <a class="tag" href="/pages/スポット/">スポット</a>
+         <a class="tag" href="/pages/御柱祭/">御柱祭</a>
+    </div>
+
+    <!-- 基本情報 -->
+    <div class="meta">
+      <div><span>地図:</span> <a href="https://i.suwa.info/view/shimosuwa.html?lat=36.108603454145566&lng=138.12840882855411&zoom=16&name=棚木場&gpx=shimosha-onbashira.gpx&points=map-data.js&type=onbashira" class="map-link" target="_blank">開く</a></div>
+    </div>
+
+    <!-- このページ内容に関する説明 -->
+    <p class="description">
+      <a href="/pages/諏訪大社/">諏訪大社</a>下社<a href="/pages/onbashira/">御柱祭</a>山出しで<a href="/pages/注連掛/">注連掛</a>を目指す開始地点。
+    </p>
+
+<p>冬季はここから八島湿原への登り口は通行止めになります。</p>
+
+    <div class="gallery">
+      <figure>
+        <img src="https://i.suwa.info/p/onbashira/tanakoba-2010-1.jpg" alt="">
+        <figcaption>
+          山出し出発前の様子
+          <small>2010年4月10日</small>
+        </figcaption>
+      </figure>
+      <figure>
+        <img src="https://i.suwa.info/p/onbashira/tanakoba-2010-2.jpg" alt="">
+        <figcaption>
+          山出し出発前の様子
+          <small>2010年4月10日</small>
+        </figcaption>
+      </figure>
+    </div>
+
+    <div class="footer-nav">
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="/contact/" class="footer-banner">
+        <img src="/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>

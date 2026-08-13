@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>三峰山｜shimosuwa.info</title>
+  <meta name="description" content="松本市、長和町、下諏訪町の境にある標高1887mの山。三峰展望台の駐車場からは30分程で登頂出来ます。">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://i.suwa.info/p/yashima/yashima-ogp.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JDE490GKVT');
+</script>
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>三峰山</h1>
+
+ <div class="tags">
+   <a class="tag" href="/pages/スポット/">スポット</a>
+ </div>
+
+    <p class="description">
+      松本市、長和町、下諏訪町の境にある標高1887mの山。<br>
+      美ヶ原と<a href="/pages/八島湿原/">八島湿原</a>の間の<a href="https://suwa.info/pages/ビーナスライン/">ビーナスライン</a>沿いの三峰展望台の駐車場からは徒歩30分程で登頂出来ます。
+    </p>
+
+    <div class="gallery">
+      <img src="https://i.suwa.info/p/spot/mitsumineyama-1.jpg" alt="天に続く道">
+      <img src="https://i.suwa.info/p/spot/mitsumineyama-2.jpg" alt="諏訪湖を望む">
+    </div>
+
+<p>
+  <a href="https://suwa.info/pages/中央分水嶺トレイル/">中央分水嶺トレイル</a>と<a href="https://suwa.info/pages/美ヶ原高原ロングトレイル/">美ヶ原高原ロングトレイル</a>の一部であり、<a href="/pages/下諏訪御柱街道トレイル2026/">下諏訪御柱街道トレイル</a>のロングコースの一部でもあります。ここを走り抜けるのは気持ちいいでしょうね。
+</p>
+
+<div class="footer-nav">
+  <a href="/pages/" class="footer-link">
+    一覧へ→
+  </a>
+  <a href="/contact/" class="footer-banner">
+    <img src="/assets/contact.png" alt="お問い合わせ">
+  </a>
+</div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>諏訪の酒蔵｜shimosuwa.info</title>
+  <meta name="description" content="諏訪の酒蔵">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JDE490GKVT');
+</script>
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>諏訪の酒蔵</h1>
+
+ <div class="tags">
+  <a class="tag" href="/pages/諏訪の酒/">諏訪の酒</a>
+  <a class="tag" href="https://shimosuwa.info/pages/酒蔵/">諏訪の酒蔵</a>
+ </div>
+
+    <p class="description">
+        諏訪6市町村には長野県には80軒(新潟県に次ぐ全国2位)あると言われる内の9つの日本酒の酒蔵があります。<br>
+        下諏訪町には<a href="/pages/御湖鶴/">御湖鶴</a>の1蔵。<br>
+        諏訪市には甲州街道沿いに揃って<a href="https://suwa.info/pages/真澄/">真澄</a>、<a href="https://suwa.info/pages/本金/">本金</a>、<a href="https://suwa.info/pages/横笛/">横笛</a>、<a href="https://suwa.info/pages/麗人/">麗人</a>、<a href="https://suwa.info/pages/舞姫/">舞姫</a>の5蔵。<br>
+        岡谷市に<a href="https://suwa.info/pages/高天/">高天</a>、<a href="https://suwa.info/pages/神渡/">神渡</a>の2蔵。<br>
+        茅野市に<a href="https://suwa.info/pages/ダイヤ菊/">ダイヤ菊</a>の1蔵。<br>
+    </p>
+
+    <div class="gallery">
+      <figure>
+        <img src="https://i.suwa.info/p/spot/sake-list.png" alt="諏訪の銘酒">
+        <figcaption>
+          <small></small>
+        </figcaption>
+      </figure>
+      <figure>
+        <a href="https://i.suwa.info/view/suwa6?points=map-data.js&type=osake" target="_blank" rel="noopener"><img src="https://i.suwa.info/p/food/osake-map.png" alt=""></a>
+        <figcaption>
+          <small>open interactive view</small>
+        </figcaption>
+      </figure>
+    </div>
+
+        <div class="list">
+
+     <a href="/pages/御湖鶴/" class="card">
+        <div class="card-title">御湖鶴</div>
+          <div class="card-desc">下諏訪唯一の酒蔵</div>
+      </a>
+
+      <a href="https://suwa.info/pages/真澄/" class="card">
+        <div class="card-title">真澄</div>
+          <div class="card-desc">上諏訪甲州街道沿い5蔵の1つ</div>
+      </a>
+
+      <a href="https://suwa.info/pages/横笛/" class="card">
+        <div class="card-title">横笛</div>
+          <div class="card-desc">上諏訪甲州街道沿い5蔵の1つ</div>
+      </a>
+
+      <a href="https://suwa.info/pages/舞姫/" class="card">
+        <div class="card-title">舞姫</div>
+          <div class="card-desc">上諏訪甲州街道沿い5蔵の1つ</div>
+      </a>
+
+      <a href="https://suwa.info/pages/麗人/" class="card">
+        <div class="card-title">麗人</div>
+          <div class="card-desc">上諏訪甲州街道沿い5蔵の1つ</div>
+      </a>
+
+      <a href="https://suwa.info/pages/本金/" class="card">
+        <div class="card-title">本金</div>
+          <div class="card-desc">上諏訪甲州街道沿い5蔵の1つ</div>
+      </a>
+
+      <a href="https://suwa.info/pages/ダイヤ菊/" class="card">
+        <div class="card-title">ダイヤ菊</div>
+          <div class="card-desc">茅野市唯一の酒蔵</div>
+      </a>
+
+      <a href="https://suwa.info/pages/高天/" class="card">
+        <div class="card-title">高天</div>
+          <div class="card-desc">岡谷市の蔵</div>
+      </a>
+
+      <a href="https://suwa.info/pages/神渡/" class="card">
+        <div class="card-title">神渡</div>
+          <div class="card-desc">岡谷市の蔵</div>
+      </a>
+
+</div>
+
+        <h2>関連リンク</h2>
+
+<div class="list">
+  <a href="https://nomiaruki.com/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">諏訪五蔵｜舞姫、麗人、本金、横笛、真澄からなる上諏訪の甲州街道沿いわずか500mの間に立ち並ぶ５軒の酒蔵</div>
+    <div class="card-desc">上諏訪街道まちあるき呑みあるきの案内</div>
+  </a>
+</div>
+
+    <div class="footer-nav">
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="/pages/諏訪の酒/" class="footer-link">
+        諏訪の酒へ→
+      </a>
+      <a href="/contact/" class="footer-banner">
+        <img src="/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>

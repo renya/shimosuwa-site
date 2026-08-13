@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>八島湿原｜shimosuwa.info</title>
+  <meta name="description" content="七島八島(ななしまやしま)とも呼ばれる標高1630mにある高層湿原">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://i.suwa.info/p/yashima/yashima-ogp.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="八島湿原｜shimosuwa.info">
+  <meta property="og:description" content="七島八島(ななしまやしま)とも呼ばれる標高1630mにある高層湿原">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shimosuwa.info/pages/八島湿原/">
+  <meta property="og:site_name" content="shimosuwa.info">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JDE490GKVT');
+</script>
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>八島湿原</h1>
+
+ <div class="tags">
+   <a class="tag" href="/pages/スポット/">スポット</a>
+ </div>
+
+    <p class="description">
+      八島湿原は<a href="https://suwa.info/pages/霧ヶ峰/">霧ヶ峰</a>の一角にあり、七島八島(ななしまやしま)とも呼ばれる標高1630mにある高層湿原。<br>
+      昭和14年(1939)に国の天然記念物指定される。<br>
+      一周約3.7km。<a href="/pages/ヒュッテみさやま/">ヒュッテみさやま</a>がある<a href="/pages/旧御射山遺跡/">旧御射山遺跡</a>から鎌ヶ池の間は砂利道、そこ以外は木道の散歩道。
+    </p>
+
+    <div class="gallery">
+<figure>
+  <img src="https://i.suwa.info/p/yashima/hiroba.jpg" alt="七島八島看板">
+  <figcaption>
+    <a href="/pages/ビーナスライン/">ビーナスライン</a>沿い、<a href="/pages/八島山荘/">八島山荘</a>がある駐車場からトンネルを通った先にある広場にある七島八島の看板。<a href="/pages/鷲ヶ峰/">鷲ヶ峰</a>へのルートもこちらから行けます。
+    <small></small>
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="https://i.suwa.info/p/yashima/yashimagaike.jpg" alt="八島ヶ池">
+  <figcaption>
+    八島ヶ池。広場からも見える、七島八島を代表する池。
+    <small></small>
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="https://i.suwa.info/p/yashima/onigasensui.jpg" alt="鬼ヶ泉水">
+  <figcaption>
+    鬼ヶ泉水。ハートに見えるのはこの角度だけ。
+    <small></small>
+  </figcaption>
+</figure>
+
+<!-- <figure>
+  <img src="https://i.suwa.info/p/yashima/kamagaike.jpg" alt="鎌ヶ池">
+  <figcaption>
+    鎌ヶ池
+    <small></small>
+  </figcaption>
+</figure> -->
+
+<figure>
+<video
+  class="content-video"
+  controls
+  preload="none"
+  playsinline
+  poster="https://i.suwa.info/p/yashima/kamagaike-poster.jpg">
+  <source src="https://i.suwa.info/p/yashima/kamagaike-web.mp4" type="video/mp4">
+</video>
+  <figcaption>
+    鎌ヶ池の全景とカエルの声
+    <small></small>
+  </figcaption>
+</figure>
+    </div>
+
+  <h2>関連リンク・投稿</h2>
+
+<div class="list">
+  <a href="https://www.town.shimosuwa.lg.jp/www/contents/1001000000749/index.html" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">八島ヶ原高層湿原 | 下諏訪町</div>
+    <div class="card-desc"></div>
+  </a>
+</div>
+
+<div class="list">
+  <a href="https://www.instagram.com/p/DYPNkHPEtD1/" target="_blank" rel="noopener" class="card card-post">
+    <div class="card-title">Instagram</div>
+    <div class="card-desc">コメントがあればインスタでも</div>
+  </a>
+
+      <a href="/pages/霧ヶ峰ハイク260813/" class="card">
+        <div class="card-title">霧ヶ峰ハイク260813</div>
+          <div class="card-desc"></div>
+      </a>
+</div>
+
+<div class="footer-nav">
+  <a href="/pages/" class="footer-link">
+    一覧へ→
+  </a>
+  <a href="/contact/" class="footer-banner">
+    <img src="/assets/contact.png" alt="お問い合わせ">
+  </a>
+</div>
+  </main>
+</body>
+</html>

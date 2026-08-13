@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>旧御射山遺跡｜shimosuwa.info</title>
+  <meta name="description" content="八島湿原の南端にある旧御射山遺跡は古来、諏訪大社下社の御射山祭御狩神事が行われていた地として、昭和37年7月12日に指定された長野県史跡">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JDE490GKVT');
+</script>
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>旧御射山遺跡</h1>
+
+<div class="tags">
+  <a class="tag" href="/pages/スポット/">スポット</a>
+  <a class="tag" href="/pages/諏訪圏/">諏訪圏</a>
+</div>
+
+    <p class="description">
+        <a href="/pages/八島湿原/">八島湿原</a>の南端にある旧御射山遺跡は古来、<a href="/pages/諏訪大社/">諏訪大社</a>下社の御射山祭御狩神事が行われていた地として、昭和37年7月12日に指定された長野県史跡。遺跡の一角には<a href="/pages/旧御射山社/">旧御射山社</a>がある。
+    </p>
+
+<div class="meta">
+  <div><span>住所:</span> <a href="https://suwa.info/pages/諏訪市/">諏訪市</a>四賀<a href="https://suwa.info/pages/霧ヶ峰/">霧ヶ峰</a></div>
+  <div><span>地図:</span> <a href="https://i.suwa.info/view/shimosuwa.html?lat=36.113239391192934&lng=138.172485330527&zoom=16&name=旧御射山遺跡" class="map-link" target="_blank">開く</a></div>
+</div>
+
+    <div class="gallery">
+<figure>
+  <img src="https://i.suwa.info/p/yashima/misayama-1.jpg" alt="">
+  <figcaption>
+    <small></small>
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="https://i.suwa.info/p/yashima/misayama-2.jpg" alt="">
+  <figcaption>
+    <small></small>
+  </figcaption>
+</figure>
+
+<figure>
+  <img src="https://i.suwa.info/p/yashima/misayama-3.jpg" alt="">
+  <figcaption>
+    <small></small>
+  </figcaption>
+</figure>
+
+    </div>
+
+    <div class="footer-nav">
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="/contact/" class="footer-banner">
+        <img src="/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>カナディアンロッキー 諏訪湖畔店｜shimosuwa.info</title>
+  <meta name="description" content="カナディアンロッキー 諏訪湖畔店">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-JDE490GKVT');
+</script>
+
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>カナディアンロッキー 諏訪湖畔店</h1>
+
+ <div class="tags">
+   <a class="tag" href="/pages/food/">グルメ</a>
+ </div>
+
+<div class="meta">
+  <div><span>営業時間:</span> 月〜木 11:00〜21:00 / 金〜日 11:30〜21:30</div>
+  <div><span>定休日:</span> 不定休</div>
+  <div><span>住所:</span> 下諏訪町南高木8976-7</div>
+  <div><span>備考:</span> 現金払いのみ</div>
+</div>
+
+    <p class="description">
+      諏訪湖畔にあるログハウス風のステーキハウス
+    </p>
+
+    <!-- 複数画像を並べたい場合。不要なら削除 -->
+    <div class="gallery">
+      <img src="https://i.suwa.info/p/food/rocky-1.jpg" alt="お店外観">
+      <img src="https://i.suwa.info/p/food/rocky-2.png" alt="ラム&ビーフ">
+    </div>
+
+    <div class="footer-nav">
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="/pages/food/" class="footer-link">
+        グルメへ→
+      </a>
+      <a href="/contact/" class="footer-banner">
+        <img src="/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>下諏訪町巡回バス｜shimosuwa.info</title>
+  <meta name="description" content="下諏訪町巡回バス">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-JDE490GKVT');
+</script>
+
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>下諏訪町巡回バス</h1>
+
+ <div class="tags">
+   <a class="tag" href="/pages/文化/">文化</a>
+ </div>
+
+    <!-- <p class="description">
+    </p> -->
+
+<div class="x-quote">
+    <span class="x-label">𝕏</span>
+    <a href="https://pbs.twimg.com/media/HH6ViUpbQAAqB8J.jpg" target="_blank" rel="noopener">@shimosuwa_info</a>:
+    下諏訪町のコミュニティバス。<br>
+    ラッピングがそれぞれ違っていて面白いです。
+    <div class="gallery">
+      <img src="https://i.suwa.info/p/bunka/bus-1.jpg" alt="コミュニティバス">
+      <img src="https://i.suwa.info/p/bunka/bus-2.jpg" alt="コミュニティバス">
+    </div>
+</div>
+
+    <div class="footer-nav">
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="/contact/" class="footer-banner">
+        <img src="/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>

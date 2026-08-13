@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>湖畔の湯｜shimosuwa.info</title>
+  <meta name="description" content="ページの説明文">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-JDE490GKVT');
+</script>
+
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>湖畔の湯</h1>
+
+    <p class="description">
+      昔ジャスコの駐車場に建てられた温泉入浴施設。
+    </p>
+
+ <div class="tags">
+   <a class="tag" href="/pages/温泉/">温泉</a>
+ </div>
+
+<div class="meta">
+  <div><span>営業時間:</span> 7:00〜21:30</div>
+  <div><span>入浴料:</span> 大人 340円 / 子供 150円</div>
+  <div><span>定休日:</span> 月曜</div>
+  <div><span>住所:</span> 下諏訪町南四王6130-1</div>
+</div>
+
+    <div class="gallery">
+      <img src="https://i.suwa.info/p/spa/kohannoyu.jpg" alt="湖畔の湯">
+    </div>
+
+    <div class="footer-nav">
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="/pages/下諏訪温泉/" class="footer-link">
+        下諏訪温泉へ→
+      </a>
+      <a href="/contact/" class="footer-banner">
+        <img src="/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>

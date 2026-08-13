@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>八島山荘｜shimosuwa.info</title>
+  <meta name="description" content="八島湿原周遊コースの入口、八島ビジターセンター駐車場に立地している山小屋">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://i.suwa.info/p/yashima/yashima-ogp.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta property="og:title" content="八島山荘｜shimosuwa.info">
+  <meta property="og:description" content="八島湿原周遊コースの入口、八島ビジターセンター駐車場に立地している山小屋">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://shimosuwa.info/pages/八島山荘/">
+  <meta property="og:site_name" content="shimosuwa.info">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-JDE490GKVT');
+</script>
+
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>八島山荘</h1>
+
+<div class="tags">
+  <a class="tag" href="/pages/宿泊/">宿泊</a>
+  <a class="tag" href="/pages/food/">グルメ</a>
+</div>
+
+<div class="meta">
+  <div><span>住所:</span> 下諏訪町字東俣10618</div>
+  <!-- <div><span>地図:</span> <a href="https://www.google.com/maps?q=36.119949852979474,138.15936937694926" class="map-link" target="_blank">Google Mapsで見る</a></div> -->
+  <div><span>地図:</span> <a href="https://i.suwa.info/view/shimosuwa.html?lat=36.119859&lng=138.159379&zoom=16&name=八島山荘" class="map-link" target="_blank">開く</a></div>
+</div>
+
+    <p class="description">
+        <a href="/pages/八島湿原/">八島湿原</a>周遊コースの入口、八島ビジターセンター駐車場に立地している山小屋。<br>
+        宿泊期間は6月〜11月上旬。<br>
+        食事有宿泊者専門施設。<br>
+        <a href="/pages/八島あざみ館/">八島あざみ館</a>に並び建っています。
+    </p>
+
+    <div class="gallery">
+<figure>
+  <img src="https://i.suwa.info/p/yashima/yasima-sansou.jpg" alt="外観">
+  <figcaption>
+    <small></small>
+  </figcaption>
+</figure>
+<figure>
+  <img src="https://i.suwa.info/p/yashima/yasima-sansou-1.jpg" alt="牛乳ともつ煮定食">
+  <figcaption>
+    牛乳ともつ煮定食
+    <small></small>
+  </figcaption>
+</figure>
+    </div>
+
+    <h2>関連リンク</h2>
+
+<div class="list">
+  <a href="https://yashimasanso.net/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">八島山荘 – 八島山荘のHPへようこそ</div>
+    <div class="card-desc"></div>
+  </a>
+</div>
+
+<div class="list">
+  <a href="https://www.instagram.com/yasimasannsou/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">Instagram</div>
+    <div class="card-desc">yasimasannsou / 八島山荘</div>
+  </a>
+</div>
+
+    <div class="footer-nav">
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="/contact/" class="footer-banner">
+        <img src="/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>

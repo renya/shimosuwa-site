@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>新鶴本店｜shimosuwa.info</title>
+  <meta name="description" content="諏訪大社下社秋宮近くの老舗和菓子店。名物の塩羊羹は下諏訪を代表する土産の一つです。">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JDE490GKVT');
+</script>
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>新鶴本店</h1>
+
+ <div class="tags">
+   <a class="tag" href="/pages/food/">グルメ</a>
+ </div>
+
+<div class="meta">
+  <div><span>営業時間:</span> 9:00〜17:30</div>
+  <div><span>定休日:</span> 水曜</div>
+  <div><span>住所:</span> 下諏訪町木の下3501</div>
+  <div><span>地図:</span> <a href="https://i.suwa.info/view/shimosuwa.html?lat=36.07554189200401&lng=138.0903802093926&zoom=16&name=新鶴本店" class="map-link" target="_blank">開く</a></div>
+  <div><span>備考:</span> </div>
+</div>
+
+    <p class="description">
+        創業明治6年。<a href="/pages/秋宮/">秋宮</a>の宝物殿に降りて行った先にある塩羊羹で名高い和菓子店。
+    </p>
+
+    <div class="gallery">
+<figure>
+  <img src="https://i.suwa.info/p/food/shinturu.jpg" alt="お店外観">
+  <figcaption>
+    国道142号線から見た店舗外観。奥に見えるのが<a href="/pages/秋宮/">秋宮</a>の宝物殿
+    <small></small>
+  </figcaption>
+</figure>
+    </div>
+   <div class="gallery">
+<figure>
+  <img src="https://i.suwa.info/p/food/shinturu-1.jpg" alt="">
+  <figcaption>
+    塩羊羹の包み
+    <small></small>
+  </figcaption>
+</figure>
+<figure>
+  <img src="https://i.suwa.info/p/food/shinturu-2.jpg" alt="">
+  <figcaption>
+    塩羊羹の包みを開けた所
+    <small></small>
+  </figcaption>
+</figure>
+    </div>
+
+        <h2>関連リンク</h2>
+
+<div class="list">
+  <a href="http://shinturu.com/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">shinturu.com</div>
+    <div class="card-desc">新鶴本店の公式サイト</div>
+  </a>
+
+  <a href="https://www.instagram.com/shintsuru.honten/" target="_blank" rel="noopener" class="card card-external">
+    <div class="card-title">Instagram</div>
+    <div class="card-desc">shintsuru.honten / 新鶴本店</div>
+  </a>
+</div>
+
+<ul class="link-list">
+<li><a href="https://ab.jcci.or.jp/article/112918/">〝目の届く範囲〟による 一店舗主義で地域に根差す 長野県諏訪郡下諏訪町　新鶴本店 後継ぎ若手経営者の100年戦略｜日商 Assist Biz</a></li>
+</ul>
+
+    <div class="footer-nav">
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="/contact/" class="footer-banner">
+        <img src="/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>一ツ浜公園｜shimosuwa.info</title>
+  <meta name="description" content="土地区画整理の記念碑がある諏訪湖畔の公園">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-JDE490GKVT');
+</script>
+
+</head>
+
+<body>
+
+  <main class="container">
+
+    <h1>一ツ浜公園</h1>
+
+ <div class="tags">
+   <a class="tag" href="/pages/スポット/">スポット</a>
+ </div>
+
+    <div class="meta">
+      <div><span>住所:</span> 下諏訪町西四王4869</div>
+    </div>
+
+    <p class="description">
+      土地区画整理の記念碑がある諏訪湖畔の公園で、<a href="/pages/みずべ公園/">みずべ公園</a>と<a href="/pages/漕艇庫/">漕艇庫</a>の間にあります。
+    </p>
+
+    <div class="gallery">
+      <img src="https://i.suwa.info/p/spot/hitotsuhama.jpg" alt="一ツ浜公園">
+    </div>
+
+<div class="footer-nav">
+  <a href="/pages/" class="footer-link">
+    一覧へ→
+  </a>
+  <a href="/contact/" class="footer-banner">
+    <img src="/assets/contact.png" alt="お問い合わせ">
+  </a>
+</div>
+  </main>
+</body>
+</html>

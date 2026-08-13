@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>信州やまなみ国スポ トライアスロン｜shimosuwa.info</title>
+  <meta name="description" content="諏訪湖周辺で行われる信州やまなみ国スポ・トライアスロン競技に関する情報をまとめています">
+
+  <!-- favicon -->
+  <link rel="icon" href="/favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon.png">
+
+  <!-- OGP -->
+  <meta property="og:image" content="https://shimosuwa.info/assets/suwako-head.png">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- 共通CSS -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-JDE490GKVT"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-JDE490GKVT');
+</script>
+</head>
+<body>
+
+  <main class="container">
+
+    <h1>信州やまなみ国スポ トライアスロン</h1>
+
+   <div class="tags">
+     <a class="tag" href="/pages/出来事/">出来事</a>
+   </div>
+
+<p class="description">
+    <a href="/pages/諏訪湖/">諏訪湖</a>周辺で行われる<a href="/pages/信州やまなみ国スポ/">信州やまなみ国スポ</a>・トライアスロン競技に関する情報をまとめています。
+</p>
+
+<div class="x-quote">
+    <span class="x-label">𝕏</span>
+    <a href="https://x.com/shimosuwa_info/status/2055460499073257743" target="_blank" rel="noopener">@shimosuwa_info</a>:
+    2026年5月11日に信州やまなみ国スポのトライアスロン競技の3市町合同実行委員会設立総会・第1回総会が下諏訪総合文化センター小ホールにて開催されました。
+</div>
+<div class="x-quote">
+    <span class="x-label">𝕏</span>
+    <a href="https://x.com/shimosuwa_info/status/2055461115744915895" target="_blank" rel="noopener">@shimosuwa_info</a>:
+    トライアスロン競技の開催はスイムは下諏訪町の諏訪湖ふれあい渚で1.5キロ、バイクは下諏訪町と諏訪市折り返しの40キロ、ランは下諏訪町と岡谷市の折り返しの10キロで行われる。
+</div>
+<div class="x-quote">
+    <span class="x-label">𝕏</span>
+    <a href="https://x.com/shimosuwa_info/status/2055461301074460977" target="_blank" rel="noopener">@shimosuwa_info</a>:
+    下諏訪町は下諏訪体育館1階ミーティングルームにトライアストンと<a href="/pages/信州やまなみ国スポ_ローイング/">ローイング</a>のそれぞれの推進室・合同推進室を設置する。
+</div>
+<div class="x-quote">
+    <span class="x-label">𝕏</span>
+    <a href="https://x.com/shimosuwa_info/status/2078713471299183012" target="_blank" rel="noopener">@shimosuwa_info</a>:
+    2028年信州やまなみ国スポのトライアスロン競技は令和10年9月10日に行われる予定です。
+    写真はスイム会場です。
+      <div class="gallery">
+        <img src="https://i.suwa.info/p/spot/swim-beach.jpg" alt="">
+      </div>
+</div>
+
+    <div class="footer-nav">
+      <a href="/pages/" class="footer-link">
+        一覧へ→
+      </a>
+      <a href="/pages/信州やまなみ国スポ/" class="footer-link">
+        信州やまなみ国スポへ→
+      </a>
+      <a href="/contact/" class="footer-banner">
+        <img src="/assets/contact.png" alt="お問い合わせ">
+      </a>
+    </div>
+  </main>
+</body>
+</html>
