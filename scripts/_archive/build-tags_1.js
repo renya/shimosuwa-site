@@ -65,7 +65,7 @@ function collectTagPages() {
     const pageUrl = `/pages/${name}/`;
 
     const tagMatches = [...html.matchAll(
-  /<a[^>]*class="tag"[^>]*href="(?:https?:\/\/[^"]+)?\/pages\/([^"]+)\/"[^>]*>([^<]+)<\/a>/g
+      /<a[^>]*class="tag"[^>]*href="\/pages\/([^"]+)\/"[^>]*>([^<]+)<\/a>/g
     )];
 
     for (const match of tagMatches) {
