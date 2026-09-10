@@ -134,7 +134,7 @@ if (linkedTags.has(tagName)) {
 <h1>${tagName}</h1>
 
 <p class="description">
-  <a href="/pages/${tagName}/">${tagName}</a>タグが付いたページリストを表示しています。<br>
+  shimosuwa.infoの<a href="/pages/${tagName}/">${tagName}</a>タグが付いたページリストを表示しています。<br>
   ${uniqueItems.length}ページ
 </p>
 
